@@ -1,0 +1,128 @@
+Name:                ppattern
+Version:             0.1.0.0
+-- synopsis:
+-- description:
+License:             MIT
+License-File:        LICENSE
+Author:              Laurent Bulteau, Romeo Rizzi, Stéphane Vialette
+Maintainer:          vialette@gmail.com
+-- copyright:
+Category:            Math
+Build-Type:          Simple
+Extra-Source-Files:  README.md
+Cabal-Version:       >=1.22
+
+Library
+  ghc-options: -Wall -Werror -O2 -funfolding-use-threshold=16
+  Default-Language: Haskell2010
+  Hs-Source-Dirs: src
+  Build-Depends: base >=4.8
+               , containers >=0.5 && <0.6
+               , patience >=0.1
+               , extra >=1.1
+               , random >=1.1
+  Exposed-Modules: Data.Algorithm.PPattern
+                 , Data.Algorithm.PPattern.Color
+                 , Data.Algorithm.PPattern.Combinatorics
+                 , Data.Algorithm.PPattern.Geometry.ColorPoint
+                 , Data.Algorithm.PPattern.Geometry.Point
+                 , Data.Algorithm.PPattern.Perm
+                 , Data.Algorithm.PPattern.Perm.Compose
+                 , Data.Algorithm.PPattern.Perm.Enumerate
+                 , Data.Algorithm.PPattern.Perm.Monotone
+                 , Data.Algorithm.PPattern.Perm.Operation
+                 , Data.Algorithm.PPattern.Perm.Random
+                 , Data.Algorithm.PPattern.Perm.Split
+                 , Data.Algorithm.PPattern.Perm.Statistics
+                 , Data.Algorithm.PPattern.Perm.Sub
+                 , Data.Algorithm.PPattern.Search
+                 , Data.Algorithm.PPattern.Search.ConflictSelection
+                 , Data.Algorithm.PPattern.Search.Occurrence
+                 , Data.Algorithm.PPattern.List
+  Other-Modules: Data.Algorithm.PPattern.Geometry.Point.List
+               , Data.Algorithm.PPattern.IntPartition
+               , Data.Algorithm.PPattern.Perm.Inner.Monotone
+               , Data.Algorithm.PPattern.Perm.Inner.Operation
+               , Data.Algorithm.PPattern.Perm.Inner.Sub
+               , Data.Algorithm.PPattern.Perm.Inner.Statistics
+               , Data.Algorithm.PPattern.Random
+               , Data.Algorithm.PPattern.Search.ConflictSelection.Link
+               , Data.Algorithm.PPattern.Search.ConflictSelection.Link2
+               , Data.Algorithm.PPattern.Search.Conflict
+               , Data.Algorithm.PPattern.Search.Context
+               , Data.Algorithm.PPattern.Search.State
+               , Data.Algorithm.PPattern.Search.State.Access
+               , Data.Algorithm.PPattern.Search.State.Embedding
+               , Data.Algorithm.PPattern.Search.State.Next
+               , Data.Algorithm.PPattern.Search.State.IncreasingFactorization
+
+Executable split-distribution
+ Main-Is: SplitDistribution.hs
+ Hs-Source-Dirs: src
+ ghc-options: -Wall -Werror -O2
+ Default-Language: Haskell2010
+ Build-Depends: base >= 4.8
+              , containers >= 0.5 && < 0.6
+              , random >=1.1
+              , random-shuffle >= 0.0
+              , utility-ht >= 0.0.12
+              , cmdargs >= 0.10.4
+              , extra >=1.1
+              , patience >=0.1
+              , ppattern >= 0.1
+
+Executable exact-distribution
+  Main-Is: ExactDistribution.hs
+  Hs-Source-Dirs: src
+  ghc-options: -Wall -Werror -O2
+  Default-Language: Haskell2010
+  Build-Depends: base >= 4.8
+               , containers >= 0.5 && < 0.6
+               , random >=1.1
+               , utility-ht >= 0.0.12
+               , cmdargs >= 0.10.4
+               , extra >=1.1
+               , patience >=0.1
+               , ppattern >= 0.1
+
+Executable ppattern-benchmark
+  Main-Is: PPatternBenchmark.hs
+  Hs-Source-Dirs: src
+  ghc-options: -Wall -Werror -O2
+  Default-Language: Haskell2010
+  Build-Depends: base >= 4.8
+               , containers >= 0.5 && < 0.6
+               , random >=1.1
+               , random-shuffle >= 0.0
+               , utility-ht >= 0.0.12
+               , cmdargs >= 0.10.4
+               , clock >= 0.7
+               , formatting >= 6.2
+               , extra >=1.1
+               , patience >=0.1
+               , ppattern >= 0.1
+
+Executable split-parameter
+  Main-Is: SplitParameter.hs
+  Hs-Source-Dirs: src
+  ghc-options: -Wall -Werror -O2
+  Default-Language: Haskell2010
+  Build-Depends: base >= 4.8
+              , containers >= 0.5 && < 0.6
+              , random >=1.1
+              , random-shuffle >= 0.0
+              , utility-ht >= 0.0.12
+              , cmdargs >= 0.10.4
+              , clock >= 0.7
+              , formatting >= 6.2
+              , extra >=1.1
+              , patience >=0.1
+              , ppattern >= 0.1
+
+test-suite spec
+  type: exitcode-stdio-1.0
+  hs-source-dirs: tests
+  main-is: Spec.hs
+  Default-Language: Haskell2010
+  build-depends: base  >=4.8
+               , hspec >= 2.4.3

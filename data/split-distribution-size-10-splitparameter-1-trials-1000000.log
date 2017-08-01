@@ -1,0 +1,29 @@
+splitparameter=#1 - 11:15:20
+split-distribution --size=10 --splitparameter=1 --trials=1000000 --seed=4496
+
+splitparameter=#2 - 11:16:15
+split-distribution --size=10 --splitparameter=2 --trials=1000000 --seed=19067
+
+splitparameter=#3 - 11:16:59
+split-distribution --size=10 --splitparameter=3 --trials=1000000 --seed=18058
+
+splitparameter=#4 - 11:17:53
+split-distribution --size=10 --splitparameter=4 --trials=1000000 --seed=31967
+
+splitparameter=#5 - 11:18:55
+split-distribution --size=10 --splitparameter=5 --trials=1000000 --seed=22363
+
+splitparameter=#6 - 11:20:06
+split-distribution --size=10 --splitparameter=6 --trials=1000000 --seed=4082
+
+splitparameter=#7 - 11:21:32
+split-distribution --size=10 --splitparameter=7 --trials=1000000 --seed=3849
+
+splitparameter=#8 - 11:23:19
+split-distribution --size=10 --splitparameter=8 --trials=1000000 --seed=7627
+
+splitparameter=#9 - 11:25:29
+split-distribution --size=10 --splitparameter=9 --trials=1000000 --seed=5500
+
+splitparameter=#10 - 11:27:51
+split-distribution --size=10 --splitparameter=10 --trials=1000000 --seed=26414
