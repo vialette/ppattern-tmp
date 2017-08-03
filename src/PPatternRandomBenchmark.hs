@@ -23,6 +23,7 @@ import System.Random
 import qualified Data.Algorithm.PPattern.Perm        as Perm
 import qualified Data.Algorithm.PPattern.Perm.Random as Perm.Random
 import qualified Data.Algorithm.PPattern             as PPattern
+import qualified Data.Algorithm.PPattern.Search.ConflictSelection as ConflictSelection
 
 data Options = Options { psize  :: Int
                        , qsize  :: Int
