@@ -41,7 +41,7 @@ options = Options { psize  = def &= help "The pattern permutation size"
 doSearch :: Int -> Int -> Perm.Perm -> Perm.Perm -> IO ()
 doSearch m n p q = do
   start     <- getTime Monotonic
-  embedding <- evaluate (PPattern.search p q)
+  embedding <- evaluate (PPattern.searchWithConflictSelectionStrategy p q ConflictSelection.RightmostConflictFirst)
   end       <- getTime Monotonic
   putStr $ show m                               `mappend`
            ","                                   `mappend`
