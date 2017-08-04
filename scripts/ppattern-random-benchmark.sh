@@ -4,28 +4,32 @@
 TRIALS=10
 
 # p permutation
-PMINSIZE=5
-PMAXSIZE=10
-PSTEPSIZE=1
+MINPSIZE=5
+MAXPSIZE=10
+STEPPSIZE=1
 
 # q permutation
-QSIZE=100
+MINQSIZE=100
+MAXQSIZE=200
+STEPQSIZE=50
 
 # generate
-for ((PSIZE=$PMINSIZE; PSIZE<=$PMAXSIZE ; PSIZE+=$PSTEPSIZE)); do
-  # output csv file
-  CSV=../data/ppattern-random-benchmark-psize-${PSIZE}-qsize-${QSIZE}.csv
+for ((QSIZE=$MINQSIZE; QSIZE<=$MAXQSIZE ; QSIZE+=$STEPQSIZE)); do
+  for ((PSIZE=$MINPSIZE; PSIZE<=$MAXPSIZE ; PSIZE+=$STEPPSIZE)); do
+    # output csv file
+    CSV=../data/ppattern-random-benchmark-psize-${PSIZE}-qsize-${QSIZE}.csv
 
-  for ((I=1; I<=TRIALS ; I+=1)); do
-    DATE=`date +"%T"`
-    echo "RUN: #$1 - ITERATION: #${I} - ${DATE}";
+    for ((I=1; I<=TRIALS ; I+=1)); do
+      DATE=`date +"%T"`
+      echo "RUN: #$1 - ITERATION: #${I} - ${DATE}";
 
-    # random generator seed
-    SEED=$RANDOM
+      # random generator seed
+      SEED=$RANDOM
 
-    # benchmark
-    echo ppattern-random-benchmark --psize=${PSIZE} --qsize=${QSIZE} --seed=${SEED}
-    ../dist/build/ppattern-random-benchmark/ppattern-random-benchmark --psize=${PSIZE} --qsize=${QSIZE} --seed=${SEED} >> ${CSV}
-    echo
+      # benchmark
+      echo ppattern-random-benchmark --psize=${PSIZE} --qsize=${QSIZE} --seed=${SEED}
+      ../dist/build/ppattern-random-benchmark/ppattern-random-benchmark --psize=${PSIZE} --qsize=${QSIZE} --seed=${SEED} >> ${CSV}
+      echo
+    done
   done
 done
