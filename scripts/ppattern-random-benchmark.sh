@@ -1,11 +1,11 @@
 #!/bin/bash
 
 # number of samples
-TRIALS=10
+TRIALS=100
 
 # p permutation
-PMINSIZE=10
-PMAXSIZE=15
+PMINSIZE=5
+PMAXSIZE=10
 PSTEPSIZE=1
 
 # q permutation

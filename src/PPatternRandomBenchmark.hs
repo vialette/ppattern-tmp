@@ -47,7 +47,7 @@ doSearch m n p q = do
   putStr $ show m                               `mappend`
            ","                                   `mappend`
            show n                                `mappend`
-           ","                                   `mappend`
+           "\","                                 `mappend`
            show p                                `mappend`
            "\",\""                               `mappend`
            show q                                `mappend`
