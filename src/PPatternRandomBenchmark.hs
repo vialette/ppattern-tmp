@@ -13,6 +13,7 @@ commentary with @some markup@.
 {-# LANGUAGE DeriveDataTypeable #-}
 {-# LANGUAGE OverloadedStrings #-}
 
+import qualified Data.Monoid as Monoid
 import Control.Exception
 import Formatting
 import Formatting.Clock
@@ -20,10 +21,10 @@ import System.Clock
 import System.Console.CmdArgs
 import System.Random
 
-import qualified Data.Algorithm.PPattern.Perm        as Perm
-import qualified Data.Algorithm.PPattern.Perm.Random as Perm.Random
-import qualified Data.Algorithm.PPattern             as PPattern
-import qualified Data.Algorithm.PPattern.Search.ConflictSelection as ConflictSelection
+import qualified Data.Algorithm.PPattern.Perm          as Perm
+import qualified Data.Algorithm.PPattern.Perm.Random   as Perm.Random
+import qualified Data.Algorithm.PPattern.Perm.Monotone as Perm.Monotone
+import qualified Data.Algorithm.PPattern               as PPattern
 
 data Options = Options { psize  :: Int
                        , qsize  :: Int
@@ -42,27 +43,29 @@ options = Options { psize  = def &= help "The pattern permutation size"
 doSearch :: Int -> Int -> Perm.Perm -> Perm.Perm -> IO ()
 doSearch m n p q = do
   start     <- getTime Monotonic
-  embedding <- evaluate (PPattern.searchWithConflictSelectionStrategy p q ConflictSelection.RightmostConflictFirst)
+  embedding <- evaluate (PPattern.search p q)
   end       <- getTime Monotonic
-  putStr $ show m                               `mappend`
-           ","                                   `mappend`
-           show n                                `mappend`
-           "\","                                 `mappend`
-           show p                                `mappend`
-           "\",\""                               `mappend`
-           show q                                `mappend`
-           "\","                                 `mappend`
-           "\""                                  `mappend`
-           show embedding                        `mappend`
-           "\","                                 `mappend`
-           "\""                                  `mappend`
-           "default conflict selection strategy" `mappend`
+  putStr $ show m                                         `Monoid.mappend`
+           ","                                            `Monoid.mappend`
+           show n                                         `Monoid.mappend`
+           "\","                                          `Monoid.mappend`
+           show p                                         `Monoid.mappend`
+           "\",\""                                        `Monoid.mappend`
+           show (Perm.Monotone.longestDecreasingLength p) `Monoid.mappend`
+           ","                                            `Monoid.mappend`
+           show q                                         `Monoid.mappend`
+           "\","                                          `Monoid.mappend`
+           show (Perm.Monotone.longestDecreasingLength q) `Monoid.mappend`
+           ",\""                                          `Monoid.mappend`
+           show embedding                                 `Monoid.mappend`
+           "\","                                          `Monoid.mappend`
+           "\""                                           `Monoid.mappend`
+           "default conflict selection strategy"          `Monoid.mappend`
            "\","
   fprint (timeSpecs % "\n") start end
 
 search :: Int -> Int -> Perm.Perm -> Perm.Perm -> IO ()
-search m n p q = do
-  doSearch m n p q
+search m n p q = doSearch m n p q
 
 go :: Options -> IO ()
 go opts = search m n p q

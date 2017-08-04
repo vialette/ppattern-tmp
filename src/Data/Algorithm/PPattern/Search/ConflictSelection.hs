@@ -157,7 +157,7 @@ where
 
   -- Default Strategy for resolving conflicts.
   defaultStrategy :: ConflictSelection
-  defaultStrategy = leftmostConflictFirst
+  defaultStrategy = rightmostConflictFirst
 
   -- Return any leftmost w.r.t. x-ccordinates conflict
   leftmostConflictFirst :: ConflictSelection
