@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # number of samples
-TRIALS=100
+TRIALS=10
 
 # p permutation
 PMINSIZE=5
