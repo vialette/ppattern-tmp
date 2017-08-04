@@ -48,20 +48,27 @@ doSearch m n p q = do
   putStr $ show m                                         `Monoid.mappend`
            ","                                            `Monoid.mappend`
            show n                                         `Monoid.mappend`
-           "\","                                          `Monoid.mappend`
+           ","                                            `Monoid.mappend`
+           "\""                                           `Monoid.mappend`
            show p                                         `Monoid.mappend`
-           "\",\""                                        `Monoid.mappend`
+           "\""                                           `Monoid.mappend`
+           ","                                            `Monoid.mappend`
            show (Perm.Monotone.longestDecreasingLength p) `Monoid.mappend`
            ","                                            `Monoid.mappend`
+           "\""                                           `Monoid.mappend`
            show q                                         `Monoid.mappend`
-           "\","                                          `Monoid.mappend`
+           "\""                                           `Monoid.mappend`
+           ","                                            `Monoid.mappend`
            show (Perm.Monotone.longestDecreasingLength q) `Monoid.mappend`
-           ",\""                                          `Monoid.mappend`
+           ","                                            `Monoid.mappend`
+           "\""                                           `Monoid.mappend`
            show embedding                                 `Monoid.mappend`
-           "\","                                          `Monoid.mappend`
+           "\""                                           `Monoid.mappend`
+           ","                                            `Monoid.mappend`
            "\""                                           `Monoid.mappend`
            "default conflict selection strategy"          `Monoid.mappend`
-           "\","
+           "\""                                           `Monoid.mappend`
+           "," 
   fprint (timeSpecs % "\n") start end
 
 search :: Int -> Int -> Perm.Perm -> Perm.Perm -> IO ()
