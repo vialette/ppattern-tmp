@@ -25,7 +25,7 @@ while true; do
   # generate
   for ((PSIZE=$PMINSIZE; PSIZE<=$PMAXSIZE; PSIZE+=$PSTEPSIZE)); do
     for ((PSPLIT=$PMINSPLIT; PSPLIT <= $PMAXSPLIT ; PSPLIT+=$PSPLITSTEP)); do
-      QSPLITMAX=$PSPLIT
+      QSPLITMAX=$((PSPLIT+2))
       for ((QSPLIT = $PSPLIT; QSPLIT <= $QSPLITMAX ; QSPLIT+=$QSPLITSTEP)); do
 
         # output csv file
