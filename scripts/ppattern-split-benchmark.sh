@@ -18,11 +18,11 @@ QSPLITSTEP=1
 # generate
 for ((PSIZE=$PMINSIZE; PSIZE<=$PMAXSIZE; PSIZE+=$PSTEPSIZE)); do
   for ((PSPLIT=$PMINSPLIT; PSPLIT <= $PMAXSPLIT ; PSPLIT+=$PSPLITSTEP)); do
-    QSPLITMAX=$((PSPLIT+2))
+    QSPLITMAX=$PSPLIT
     for ((QSPLIT = $PSPLIT; QSPLIT <= $QSPLITMAX ; QSPLIT+=$QSPLITSTEP)); do
 
       # output csv file
-      CSV=../data/ppattern-benchmark-psize-${PSIZE}-qsize-${QSIZE}-psplit-${PSPLIT}-qsplit-${QSPLIT}.csv
+      CSV=../data/ppattern-split-benchmark-psize-${PSIZE}-qsize-${QSIZE}-psplit-${PSPLIT}-qsplit-${QSPLIT}.csv
 
       for ((I = 1; I <= $N; I++)); do
         DATE=`date +"%T"`
