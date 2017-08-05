@@ -33,8 +33,9 @@ while true; do
 
         for ((I = 1; I <= $N; I++)); do
           DATE=`date +"%T"`
-          echo "RUN: #$1 - ITERATION: #${I} - ${DATE}";
-
+          echo "RUN: #$RUN - ITERATION: #${I} - ${DATE}";
+          RUN=$((RUN+1))
+               
           # random generator seed
           SEED=$RANDOM
 
