@@ -1901,3 +1901,2964 @@ ppattern-random-benchmark --psize=7 --qsize=150 --seed=4465
 
 RUN: #4 - ITERATION: #1 - 22:28:49
 ppattern-random-benchmark --psize=8 --qsize=150 --seed=27024
+
+RUN: #4 - ITERATION: #2 - 22:34:36
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=7838
+
+RUN: #4 - ITERATION: #3 - 22:34:36
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=14395
+
+RUN: #4 - ITERATION: #4 - 22:34:36
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=30624
+
+RUN: #4 - ITERATION: #5 - 22:34:36
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=19136
+
+RUN: #4 - ITERATION: #6 - 22:34:36
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=8905
+
+RUN: #4 - ITERATION: #7 - 22:34:37
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=4118
+
+RUN: #4 - ITERATION: #8 - 22:34:37
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=24873
+
+RUN: #4 - ITERATION: #9 - 22:34:37
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=5504
+
+RUN: #4 - ITERATION: #10 - 22:35:32
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=19421
+
+RUN: #4 - ITERATION: #1 - 22:35:32
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=17909
+
+RUN: #4 - ITERATION: #2 - 22:39:57
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=2317
+
+RUN: #4 - ITERATION: #3 - 22:39:59
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=22113
+
+RUN: #4 - ITERATION: #4 - 22:40:00
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=17928
+
+RUN: #4 - ITERATION: #5 - 22:40:03
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=30547
+
+RUN: #4 - ITERATION: #6 - 22:40:04
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=18003
+
+RUN: #4 - ITERATION: #7 - 22:40:19
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=15640
+
+RUN: #4 - ITERATION: #8 - 22:41:20
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=14564
+
+RUN: #4 - ITERATION: #9 - 22:41:20
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=18981
+
+RUN: #4 - ITERATION: #10 - 22:42:31
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=26556
+
+RUN: #4 - ITERATION: #1 - 22:42:32
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=17782
+
+RUN: #4 - ITERATION: #2 - 22:42:32
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=9080
+
+RUN: #4 - ITERATION: #3 - 22:42:45
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=14865
+
+RUN: #4 - ITERATION: #4 - 22:42:46
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=32089
+
+RUN: #4 - ITERATION: #5 - 22:42:46
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=7694
+
+RUN: #4 - ITERATION: #6 - 22:43:55
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=28151
+
+RUN: #4 - ITERATION: #7 - 22:43:55
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=18153
+
+RUN: #4 - ITERATION: #8 - 22:43:55
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=15629
+
+RUN: #4 - ITERATION: #9 - 22:44:15
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=21553
+
+RUN: #4 - ITERATION: #10 - 22:44:16
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=32296
+
+RUN: #4 - ITERATION: #1 - 22:45:48
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=17920
+
+RUN: #4 - ITERATION: #2 - 22:45:48
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=22292
+
+RUN: #4 - ITERATION: #3 - 22:45:48
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=1382
+
+RUN: #4 - ITERATION: #4 - 22:45:48
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=14412
+
+RUN: #4 - ITERATION: #5 - 22:45:48
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=23185
+
+RUN: #4 - ITERATION: #6 - 22:45:48
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=4282
+
+RUN: #4 - ITERATION: #7 - 22:45:48
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=18642
+
+RUN: #4 - ITERATION: #8 - 22:45:48
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=29765
+
+RUN: #4 - ITERATION: #9 - 22:45:48
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=8499
+
+RUN: #4 - ITERATION: #10 - 22:45:48
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=29681
+
+RUN: #4 - ITERATION: #1 - 22:45:48
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=11446
+
+RUN: #4 - ITERATION: #2 - 22:45:48
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=10113
+
+RUN: #4 - ITERATION: #3 - 22:45:48
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=24098
+
+RUN: #4 - ITERATION: #4 - 22:45:48
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=17889
+
+RUN: #4 - ITERATION: #5 - 22:45:48
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=31716
+
+RUN: #4 - ITERATION: #6 - 22:45:48
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=24685
+
+RUN: #4 - ITERATION: #7 - 22:45:48
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=26741
+
+RUN: #4 - ITERATION: #8 - 22:45:49
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=5038
+
+RUN: #4 - ITERATION: #9 - 22:45:49
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=12163
+
+RUN: #4 - ITERATION: #10 - 22:45:49
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=2306
+
+RUN: #4 - ITERATION: #1 - 22:45:49
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=1796
+
+RUN: #4 - ITERATION: #2 - 22:45:50
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=27522
+
+RUN: #4 - ITERATION: #3 - 22:45:50
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=26792
+
+RUN: #4 - ITERATION: #4 - 22:45:50
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=12894
+
+RUN: #4 - ITERATION: #5 - 22:45:50
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=23505
+
+RUN: #4 - ITERATION: #6 - 22:45:50
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=15738
+
+RUN: #4 - ITERATION: #7 - 22:45:51
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=13267
+
+RUN: #4 - ITERATION: #8 - 22:45:51
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=6673
+
+RUN: #4 - ITERATION: #9 - 22:45:51
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=30972
+
+RUN: #4 - ITERATION: #10 - 22:46:21
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=17197
+
+RUN: #4 - ITERATION: #1 - 22:46:21
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=7007
+
+RUN: #4 - ITERATION: #2 - 22:47:31
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=10338
+
+RUN: #4 - ITERATION: #3 - 22:47:32
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=32484
+
+RUN: #4 - ITERATION: #4 - 22:47:32
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=1357
+
+RUN: #4 - ITERATION: #5 - 22:47:38
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=12957
+
+RUN: #4 - ITERATION: #6 - 22:47:41
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=4080
+
+RUN: #4 - ITERATION: #7 - 22:47:42
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=11102
+
+RUN: #4 - ITERATION: #8 - 22:47:44
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=343
+
+RUN: #4 - ITERATION: #9 - 22:47:45
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=12093
+
+RUN: #4 - ITERATION: #10 - 22:47:45
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=2347
+
+RUN: #4 - ITERATION: #1 - 22:52:03
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=12247
+
+RUN: #4 - ITERATION: #2 - 22:52:03
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=6434
+
+RUN: #4 - ITERATION: #3 - 22:52:12
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=21235
+
+RUN: #4 - ITERATION: #4 - 22:52:14
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=27821
+
+RUN: #4 - ITERATION: #5 - 22:52:15
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=9137
+
+RUN: #4 - ITERATION: #6 - 22:52:29
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=22162
+
+RUN: #4 - ITERATION: #7 - 22:52:31
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=12285
+
+RUN: #4 - ITERATION: #8 - 22:52:31
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=17892
+
+RUN: #4 - ITERATION: #9 - 22:52:38
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=6657
+
+RUN: #4 - ITERATION: #10 - 22:57:51
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=24807
+
+RUN: #4 - ITERATION: #1 - 22:58:58
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=8876
+
+RUN: #4 - ITERATION: #2 - 22:58:58
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=9175
+
+RUN: #4 - ITERATION: #3 - 22:59:18
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=20400
+
+RUN: #4 - ITERATION: #4 - 22:59:18
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=1822
+
+RUN: #4 - ITERATION: #5 - 22:59:18
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=8118
+
+RUN: #4 - ITERATION: #6 - 22:59:44
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=3105
+
+RUN: #4 - ITERATION: #7 - 23:12:47
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=6791
+
+RUN: #4 - ITERATION: #8 - 23:12:48
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=25471
+
+RUN: #4 - ITERATION: #9 - 23:12:48
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=23
+
+RUN: #4 - ITERATION: #10 - 23:13:04
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=17188
+
+
+
+run 5
+RUN: #5 - ITERATION: #1 - 23:13:07
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=7748
+
+RUN: #5 - ITERATION: #2 - 23:13:07
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=13360
+
+RUN: #5 - ITERATION: #3 - 23:13:07
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=25583
+
+RUN: #5 - ITERATION: #4 - 23:13:07
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=6006
+
+RUN: #5 - ITERATION: #5 - 23:13:07
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=19307
+
+RUN: #5 - ITERATION: #6 - 23:13:07
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=32478
+
+RUN: #5 - ITERATION: #7 - 23:13:07
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=20386
+
+RUN: #5 - ITERATION: #8 - 23:13:07
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=20157
+
+RUN: #5 - ITERATION: #9 - 23:13:07
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=2911
+
+RUN: #5 - ITERATION: #10 - 23:13:07
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=17476
+
+RUN: #5 - ITERATION: #1 - 23:13:07
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=1530
+
+RUN: #5 - ITERATION: #2 - 23:13:07
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=30849
+
+RUN: #5 - ITERATION: #3 - 23:13:07
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=29663
+
+RUN: #5 - ITERATION: #4 - 23:13:07
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=24256
+
+RUN: #5 - ITERATION: #5 - 23:13:07
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=15584
+
+RUN: #5 - ITERATION: #6 - 23:13:07
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=8220
+
+RUN: #5 - ITERATION: #7 - 23:13:07
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=15695
+
+RUN: #5 - ITERATION: #8 - 23:13:07
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=6257
+
+RUN: #5 - ITERATION: #9 - 23:13:07
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=15594
+
+RUN: #5 - ITERATION: #10 - 23:13:07
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=15929
+
+RUN: #5 - ITERATION: #1 - 23:13:07
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=17217
+
+RUN: #5 - ITERATION: #2 - 23:13:12
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=7756
+
+RUN: #5 - ITERATION: #3 - 23:13:13
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=15533
+
+RUN: #5 - ITERATION: #4 - 23:13:14
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=11245
+
+RUN: #5 - ITERATION: #5 - 23:13:14
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=593
+
+RUN: #5 - ITERATION: #6 - 23:13:14
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=19780
+
+RUN: #5 - ITERATION: #7 - 23:13:14
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=24040
+
+RUN: #5 - ITERATION: #8 - 23:13:14
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=12149
+
+RUN: #5 - ITERATION: #9 - 23:13:15
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=13049
+
+RUN: #5 - ITERATION: #10 - 23:13:15
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=3746
+
+RUN: #5 - ITERATION: #1 - 23:13:36
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=27844
+
+RUN: #5 - ITERATION: #2 - 23:13:36
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=22802
+
+RUN: #5 - ITERATION: #3 - 23:14:20
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=19065
+
+RUN: #5 - ITERATION: #4 - 23:14:20
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=32506
+
+RUN: #5 - ITERATION: #5 - 23:14:21
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=2663
+
+RUN: #5 - ITERATION: #6 - 23:14:25
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=31744
+
+RUN: #5 - ITERATION: #7 - 23:14:26
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=3235
+
+RUN: #5 - ITERATION: #8 - 23:14:28
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=22597
+
+RUN: #5 - ITERATION: #9 - 23:14:28
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=19393
+
+RUN: #5 - ITERATION: #10 - 23:14:28
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=6282
+
+RUN: #5 - ITERATION: #1 - 23:14:28
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=7279
+
+RUN: #5 - ITERATION: #2 - 23:14:28
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=15709
+
+RUN: #5 - ITERATION: #3 - 23:14:29
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=24724
+
+RUN: #5 - ITERATION: #4 - 23:14:29
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=7376
+
+RUN: #5 - ITERATION: #5 - 23:14:52
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=19058
+
+RUN: #5 - ITERATION: #6 - 23:14:52
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=6092
+
+RUN: #5 - ITERATION: #7 - 23:14:53
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=4924
+
+RUN: #5 - ITERATION: #8 - 23:14:53
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=357
+
+RUN: #5 - ITERATION: #9 - 23:14:53
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=6592
+
+RUN: #5 - ITERATION: #10 - 23:14:55
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=15001
+
+RUN: #5 - ITERATION: #1 - 23:14:55
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=7739
+
+RUN: #5 - ITERATION: #2 - 23:14:56
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=21041
+
+RUN: #5 - ITERATION: #3 - 23:14:56
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=14696
+
+RUN: #5 - ITERATION: #4 - 23:15:11
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=25183
+
+RUN: #5 - ITERATION: #5 - 23:16:14
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=21107
+
+RUN: #5 - ITERATION: #6 - 23:16:14
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=943
+
+RUN: #5 - ITERATION: #7 - 23:16:25
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=2923
+
+RUN: #5 - ITERATION: #8 - 23:16:25
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=14505
+
+RUN: #5 - ITERATION: #9 - 23:16:28
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=5891
+
+RUN: #5 - ITERATION: #10 - 23:16:28
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=24982
+
+RUN: #5 - ITERATION: #1 - 23:16:28
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=17103
+
+RUN: #5 - ITERATION: #2 - 23:16:28
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=25360
+
+RUN: #5 - ITERATION: #3 - 23:16:28
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=15894
+
+RUN: #5 - ITERATION: #4 - 23:16:28
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=15614
+
+RUN: #5 - ITERATION: #5 - 23:16:28
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=32732
+
+RUN: #5 - ITERATION: #6 - 23:16:28
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=21606
+
+RUN: #5 - ITERATION: #7 - 23:16:28
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=2809
+
+RUN: #5 - ITERATION: #8 - 23:16:28
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=8642
+
+RUN: #5 - ITERATION: #9 - 23:16:29
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=30633
+
+RUN: #5 - ITERATION: #10 - 23:16:29
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=30970
+
+RUN: #5 - ITERATION: #1 - 23:16:29
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=9318
+
+RUN: #5 - ITERATION: #2 - 23:16:29
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=25053
+
+RUN: #5 - ITERATION: #3 - 23:16:29
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=8778
+
+RUN: #5 - ITERATION: #4 - 23:16:30
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=20666
+
+RUN: #5 - ITERATION: #5 - 23:16:30
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=9172
+
+RUN: #5 - ITERATION: #6 - 23:16:30
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=29213
+
+RUN: #5 - ITERATION: #7 - 23:16:31
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=29394
+
+RUN: #5 - ITERATION: #8 - 23:16:31
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=18655
+
+RUN: #5 - ITERATION: #9 - 23:16:31
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=10921
+
+RUN: #5 - ITERATION: #10 - 23:16:31
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=28376
+
+RUN: #5 - ITERATION: #1 - 23:16:31
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=12416
+
+RUN: #5 - ITERATION: #2 - 23:16:33
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=22524
+
+RUN: #5 - ITERATION: #3 - 23:16:33
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=24985
+
+RUN: #5 - ITERATION: #4 - 23:16:33
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=14004
+
+RUN: #5 - ITERATION: #5 - 23:16:42
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=7435
+
+RUN: #5 - ITERATION: #6 - 23:16:42
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=21889
+
+RUN: #5 - ITERATION: #7 - 23:16:42
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=11630
+
+RUN: #5 - ITERATION: #8 - 23:16:43
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=18876
+
+RUN: #5 - ITERATION: #9 - 23:16:43
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=29517
+
+RUN: #5 - ITERATION: #10 - 23:16:43
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=21695
+
+RUN: #5 - ITERATION: #1 - 23:16:43
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=834
+
+RUN: #5 - ITERATION: #2 - 23:16:44
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=26096
+
+RUN: #5 - ITERATION: #3 - 23:16:44
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=4816
+
+RUN: #5 - ITERATION: #4 - 23:17:01
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=15308
+
+RUN: #5 - ITERATION: #5 - 23:17:20
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=29928
+
+RUN: #5 - ITERATION: #6 - 23:18:07
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=24674
+
+RUN: #5 - ITERATION: #7 - 23:18:08
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=20508
+
+RUN: #5 - ITERATION: #8 - 23:18:08
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=5129
+
+RUN: #5 - ITERATION: #9 - 23:18:08
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=24903
+
+RUN: #5 - ITERATION: #10 - 23:18:15
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=8794
+
+RUN: #5 - ITERATION: #1 - 23:18:15
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=25726
+
+RUN: #5 - ITERATION: #2 - 23:18:19
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=15547
+
+RUN: #5 - ITERATION: #3 - 23:18:19
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=13461
+
+RUN: #5 - ITERATION: #4 - 23:18:19
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=11444
+
+RUN: #5 - ITERATION: #5 - 23:18:20
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=24427
+
+RUN: #5 - ITERATION: #6 - 23:19:12
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=6354
+
+RUN: #5 - ITERATION: #7 - 23:19:12
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=11707
+
+RUN: #5 - ITERATION: #8 - 23:19:13
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=23278
+
+RUN: #5 - ITERATION: #9 - 23:19:17
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=26282
+
+RUN: #5 - ITERATION: #10 - 23:20:38
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=10196
+
+RUN: #5 - ITERATION: #1 - 23:20:58
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=32586
+
+RUN: #5 - ITERATION: #2 - 23:20:59
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=30677
+
+RUN: #5 - ITERATION: #3 - 23:21:29
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=30363
+
+RUN: #5 - ITERATION: #4 - 23:21:38
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=18202
+
+RUN: #5 - ITERATION: #5 - 23:21:38
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=1819
+
+RUN: #5 - ITERATION: #6 - 23:22:02
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=15654
+
+RUN: #5 - ITERATION: #7 - 23:22:02
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=8933
+
+RUN: #5 - ITERATION: #8 - 23:22:26
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=28873
+
+RUN: #5 - ITERATION: #9 - 23:22:26
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=10294
+
+RUN: #5 - ITERATION: #10 - 23:22:26
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=2519
+
+RUN: #5 - ITERATION: #1 - 23:22:26
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=12001
+
+RUN: #5 - ITERATION: #2 - 23:22:27
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=23067
+
+RUN: #5 - ITERATION: #3 - 23:22:27
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=11529
+
+RUN: #5 - ITERATION: #4 - 23:22:27
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=12002
+
+RUN: #5 - ITERATION: #5 - 23:22:27
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=4333
+
+RUN: #5 - ITERATION: #6 - 23:22:27
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=24815
+
+RUN: #5 - ITERATION: #7 - 23:22:28
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=28427
+
+RUN: #5 - ITERATION: #8 - 23:22:28
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=24927
+
+RUN: #5 - ITERATION: #9 - 23:22:28
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=14560
+
+RUN: #5 - ITERATION: #10 - 23:22:28
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=13402
+
+RUN: #5 - ITERATION: #1 - 23:22:28
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=9088
+
+RUN: #5 - ITERATION: #2 - 23:22:28
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=26682
+
+RUN: #5 - ITERATION: #3 - 23:22:28
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=3311
+
+RUN: #5 - ITERATION: #4 - 23:22:28
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=26552
+
+RUN: #5 - ITERATION: #5 - 23:22:28
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=8126
+
+RUN: #5 - ITERATION: #6 - 23:22:28
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=15816
+
+RUN: #5 - ITERATION: #7 - 23:22:28
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=9124
+
+RUN: #5 - ITERATION: #8 - 23:22:30
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=7983
+
+RUN: #5 - ITERATION: #9 - 23:22:30
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=25683
+
+RUN: #5 - ITERATION: #10 - 23:22:30
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=12280
+
+RUN: #5 - ITERATION: #1 - 23:22:30
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=26788
+
+RUN: #5 - ITERATION: #2 - 23:22:30
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=14652
+
+RUN: #5 - ITERATION: #3 - 23:22:30
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=19162
+
+RUN: #5 - ITERATION: #4 - 23:22:30
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=32529
+
+RUN: #5 - ITERATION: #5 - 23:22:30
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=23054
+
+RUN: #5 - ITERATION: #6 - 23:22:31
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=10465
+
+RUN: #5 - ITERATION: #7 - 23:22:31
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=32282
+
+RUN: #5 - ITERATION: #8 - 23:22:31
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=32742
+
+RUN: #5 - ITERATION: #9 - 23:22:31
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=11383
+
+RUN: #5 - ITERATION: #10 - 23:22:59
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=3025
+
+RUN: #5 - ITERATION: #1 - 23:23:08
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=7047
+
+RUN: #5 - ITERATION: #2 - 23:25:31
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=29811
+
+RUN: #5 - ITERATION: #3 - 23:25:32
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=24178
+
+RUN: #5 - ITERATION: #4 - 23:25:35
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=11554
+
+RUN: #5 - ITERATION: #5 - 23:25:35
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=19682
+
+RUN: #5 - ITERATION: #6 - 23:25:35
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=20855
+
+RUN: #5 - ITERATION: #7 - 23:25:57
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=7470
+
+RUN: #5 - ITERATION: #8 - 23:26:01
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=30517
+
+RUN: #5 - ITERATION: #9 - 23:26:26
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=29879
+
+RUN: #5 - ITERATION: #10 - 23:26:27
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=18290
+
+RUN: #5 - ITERATION: #1 - 23:27:02
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=21364
+
+RUN: #5 - ITERATION: #2 - 23:27:11
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=8587
+
+RUN: #5 - ITERATION: #3 - 23:27:12
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=25329
+
+RUN: #5 - ITERATION: #4 - 23:28:00
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=2458
+
+RUN: #5 - ITERATION: #5 - 23:28:00
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=4032
+
+RUN: #5 - ITERATION: #6 - 23:28:00
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=9896
+
+RUN: #5 - ITERATION: #7 - 23:28:00
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=9354
+
+RUN: #5 - ITERATION: #8 - 23:28:01
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=274
+
+RUN: #5 - ITERATION: #9 - 23:28:23
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=5379
+
+RUN: #5 - ITERATION: #10 - 23:28:33
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=13106
+
+RUN: #5 - ITERATION: #1 - 23:29:00
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=17486
+
+RUN: #5 - ITERATION: #2 - 23:31:07
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=12068
+
+RUN: #5 - ITERATION: #3 - 23:31:20
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=7119
+
+RUN: #5 - ITERATION: #4 - 23:34:16
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=21619
+
+RUN: #5 - ITERATION: #5 - 23:34:18
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=8432
+
+RUN: #5 - ITERATION: #6 - 23:35:36
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=18791
+
+RUN: #5 - ITERATION: #7 - 23:37:16
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=14124
+
+RUN: #5 - ITERATION: #8 - 23:39:33
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=20941
+
+RUN: #5 - ITERATION: #9 - 23:39:33
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=14241
+
+RUN: #5 - ITERATION: #10 - 23:39:33
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=24122
+
+
+
+run 6
+RUN: #6 - ITERATION: #1 - 23:44:04
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=4205
+
+RUN: #6 - ITERATION: #2 - 23:44:04
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=28782
+
+RUN: #6 - ITERATION: #3 - 23:44:04
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=21088
+
+RUN: #6 - ITERATION: #4 - 23:44:04
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=20474
+
+RUN: #6 - ITERATION: #5 - 23:44:04
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=14414
+
+RUN: #6 - ITERATION: #6 - 23:44:04
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=7276
+
+RUN: #6 - ITERATION: #7 - 23:44:04
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=6189
+
+RUN: #6 - ITERATION: #8 - 23:44:04
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=14297
+
+RUN: #6 - ITERATION: #9 - 23:44:04
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=13719
+
+RUN: #6 - ITERATION: #10 - 23:44:04
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=3019
+
+RUN: #6 - ITERATION: #1 - 23:44:04
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=30606
+
+RUN: #6 - ITERATION: #2 - 23:44:04
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=7156
+
+RUN: #6 - ITERATION: #3 - 23:44:04
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=14672
+
+RUN: #6 - ITERATION: #4 - 23:44:04
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=25136
+
+RUN: #6 - ITERATION: #5 - 23:44:04
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=27494
+
+RUN: #6 - ITERATION: #6 - 23:44:04
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=8094
+
+RUN: #6 - ITERATION: #7 - 23:44:04
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=30034
+
+RUN: #6 - ITERATION: #8 - 23:44:04
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=23840
+
+RUN: #6 - ITERATION: #9 - 23:44:04
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=8024
+
+RUN: #6 - ITERATION: #10 - 23:44:04
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=25305
+
+RUN: #6 - ITERATION: #1 - 23:44:04
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=10227
+
+RUN: #6 - ITERATION: #2 - 23:44:05
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=19226
+
+RUN: #6 - ITERATION: #3 - 23:44:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=8242
+
+RUN: #6 - ITERATION: #4 - 23:44:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=25044
+
+RUN: #6 - ITERATION: #5 - 23:44:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=25778
+
+RUN: #6 - ITERATION: #6 - 23:44:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=18577
+
+RUN: #6 - ITERATION: #7 - 23:44:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=20839
+
+RUN: #6 - ITERATION: #8 - 23:44:11
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=26841
+
+RUN: #6 - ITERATION: #9 - 23:44:11
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=30244
+
+RUN: #6 - ITERATION: #10 - 23:44:11
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=7720
+
+RUN: #6 - ITERATION: #1 - 23:44:11
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=8164
+
+RUN: #6 - ITERATION: #2 - 23:44:12
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=23403
+
+RUN: #6 - ITERATION: #3 - 23:44:12
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=1449
+
+RUN: #6 - ITERATION: #4 - 23:44:12
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=24489
+
+RUN: #6 - ITERATION: #5 - 23:44:12
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=32550
+
+RUN: #6 - ITERATION: #6 - 23:44:12
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=24685
+
+RUN: #6 - ITERATION: #7 - 23:44:12
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=21481
+
+RUN: #6 - ITERATION: #8 - 23:44:12
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=5969
+
+RUN: #6 - ITERATION: #9 - 23:44:12
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=4929
+
+RUN: #6 - ITERATION: #10 - 23:44:12
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=22856
+
+RUN: #6 - ITERATION: #1 - 23:44:20
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=15270
+
+RUN: #6 - ITERATION: #2 - 23:44:20
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=25167
+
+RUN: #6 - ITERATION: #3 - 23:44:20
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=29016
+
+RUN: #6 - ITERATION: #4 - 23:44:20
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=6530
+
+RUN: #6 - ITERATION: #5 - 23:45:37
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=21913
+
+RUN: #6 - ITERATION: #6 - 23:45:37
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=32581
+
+RUN: #6 - ITERATION: #7 - 23:45:37
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=12903
+
+RUN: #6 - ITERATION: #8 - 23:45:37
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=14891
+
+RUN: #6 - ITERATION: #9 - 23:45:37
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=491
+
+RUN: #6 - ITERATION: #10 - 23:45:38
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=13640
+
+RUN: #6 - ITERATION: #1 - 23:45:38
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=21700
+
+RUN: #6 - ITERATION: #2 - 23:45:38
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=20802
+
+RUN: #6 - ITERATION: #3 - 23:45:38
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=1518
+
+RUN: #6 - ITERATION: #4 - 23:45:49
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=4716
+
+RUN: #6 - ITERATION: #5 - 23:46:03
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=5144
+
+RUN: #6 - ITERATION: #6 - 23:46:03
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=4043
+
+RUN: #6 - ITERATION: #7 - 23:46:03
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=9306
+
+RUN: #6 - ITERATION: #8 - 23:46:58
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=20164
+
+RUN: #6 - ITERATION: #9 - 23:50:07
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=28480
+
+RUN: #6 - ITERATION: #10 - 23:50:07
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=29120
+
+RUN: #6 - ITERATION: #1 - 23:50:07
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=21124
+
+RUN: #6 - ITERATION: #2 - 23:50:07
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=11803
+
+RUN: #6 - ITERATION: #3 - 23:50:07
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=11670
+
+RUN: #6 - ITERATION: #4 - 23:50:07
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=10394
+
+RUN: #6 - ITERATION: #5 - 23:50:07
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=23462
+
+RUN: #6 - ITERATION: #6 - 23:50:07
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=18220
+
+RUN: #6 - ITERATION: #7 - 23:50:07
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=25702
+
+RUN: #6 - ITERATION: #8 - 23:50:07
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=3343
+
+RUN: #6 - ITERATION: #9 - 23:50:07
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=976
+
+RUN: #6 - ITERATION: #10 - 23:50:07
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=6960
+
+RUN: #6 - ITERATION: #1 - 23:50:07
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=16232
+
+RUN: #6 - ITERATION: #2 - 23:50:07
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=28436
+
+RUN: #6 - ITERATION: #3 - 23:50:07
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=18773
+
+RUN: #6 - ITERATION: #4 - 23:50:07
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=10490
+
+RUN: #6 - ITERATION: #5 - 23:50:07
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=2619
+
+RUN: #6 - ITERATION: #6 - 23:50:07
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=20752
+
+RUN: #6 - ITERATION: #7 - 23:50:07
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=6313
+
+RUN: #6 - ITERATION: #8 - 23:50:07
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=22558
+
+RUN: #6 - ITERATION: #9 - 23:50:07
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=16818
+
+RUN: #6 - ITERATION: #10 - 23:50:07
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=14516
+
+RUN: #6 - ITERATION: #1 - 23:50:08
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=28209
+
+RUN: #6 - ITERATION: #2 - 23:50:08
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=31569
+
+RUN: #6 - ITERATION: #3 - 23:50:08
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=16245
+
+RUN: #6 - ITERATION: #4 - 23:50:08
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=15320
+
+RUN: #6 - ITERATION: #5 - 23:50:09
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=5913
+
+RUN: #6 - ITERATION: #6 - 23:50:11
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=3571
+
+RUN: #6 - ITERATION: #7 - 23:50:11
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=1945
+
+RUN: #6 - ITERATION: #8 - 23:50:11
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=6424
+
+RUN: #6 - ITERATION: #9 - 23:50:12
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=15329
+
+RUN: #6 - ITERATION: #10 - 23:50:12
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=29748
+
+RUN: #6 - ITERATION: #1 - 23:50:12
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=13281
+
+RUN: #6 - ITERATION: #2 - 23:50:17
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=11946
+
+RUN: #6 - ITERATION: #3 - 23:50:17
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=15396
+
+RUN: #6 - ITERATION: #4 - 23:50:17
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=32548
+
+RUN: #6 - ITERATION: #5 - 23:50:18
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=22970
+
+RUN: #6 - ITERATION: #6 - 23:50:19
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=31228
+
+RUN: #6 - ITERATION: #7 - 23:50:19
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=24082
+
+RUN: #6 - ITERATION: #8 - 23:50:48
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=19498
+
+RUN: #6 - ITERATION: #9 - 23:50:56
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=9240
+
+RUN: #6 - ITERATION: #10 - 23:50:56
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=32600
+
+RUN: #6 - ITERATION: #1 - 23:50:56
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=3339
+
+RUN: #6 - ITERATION: #2 - 23:50:56
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=1862
+
+RUN: #6 - ITERATION: #3 - 23:50:56
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=10658
+
+RUN: #6 - ITERATION: #4 - 23:51:11
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=30384
+
+RUN: #6 - ITERATION: #5 - 23:51:11
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=30194
+
+RUN: #6 - ITERATION: #6 - 23:52:01
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=4881
+
+RUN: #6 - ITERATION: #7 - 23:52:02
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=754
+
+RUN: #6 - ITERATION: #8 - 23:52:02
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=13580
+
+RUN: #6 - ITERATION: #9 - 23:52:04
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=29863
+
+RUN: #6 - ITERATION: #10 - 23:52:09
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=21120
+
+RUN: #6 - ITERATION: #1 - 23:52:09
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=7127
+
+RUN: #6 - ITERATION: #2 - 23:52:09
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=30819
+
+RUN: #6 - ITERATION: #3 - 23:52:09
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=22678
+
+RUN: #6 - ITERATION: #4 - 23:52:15
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=15824
+
+RUN: #6 - ITERATION: #5 - 23:52:15
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=17753
+
+RUN: #6 - ITERATION: #6 - 23:52:17
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=4532
+
+RUN: #6 - ITERATION: #7 - 23:52:17
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=7438
+
+RUN: #6 - ITERATION: #8 - 23:52:25
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=14667
+
+RUN: #6 - ITERATION: #9 - 23:52:29
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=14497
+
+RUN: #6 - ITERATION: #10 - 23:52:33
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=8988
+
+RUN: #6 - ITERATION: #1 - 23:52:35
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=21923
+
+RUN: #6 - ITERATION: #2 - 23:52:35
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=24857
+
+RUN: #6 - ITERATION: #3 - 23:52:35
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=20568
+
+RUN: #6 - ITERATION: #4 - 23:52:35
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=30392
+
+RUN: #6 - ITERATION: #5 - 23:52:35
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=29716
+
+RUN: #6 - ITERATION: #6 - 23:52:36
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=28631
+
+RUN: #6 - ITERATION: #7 - 23:52:36
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=13436
+
+RUN: #6 - ITERATION: #8 - 23:52:36
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=29616
+
+RUN: #6 - ITERATION: #9 - 23:52:36
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=29692
+
+RUN: #6 - ITERATION: #10 - 23:52:36
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=25987
+
+RUN: #6 - ITERATION: #1 - 23:52:36
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=21408
+
+RUN: #6 - ITERATION: #2 - 23:52:36
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=28264
+
+RUN: #6 - ITERATION: #3 - 23:52:36
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=14491
+
+RUN: #6 - ITERATION: #4 - 23:52:36
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=9074
+
+RUN: #6 - ITERATION: #5 - 23:52:36
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=17619
+
+RUN: #6 - ITERATION: #6 - 23:52:36
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=16339
+
+RUN: #6 - ITERATION: #7 - 23:52:36
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=1581
+
+RUN: #6 - ITERATION: #8 - 23:52:36
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=17508
+
+RUN: #6 - ITERATION: #9 - 23:52:36
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=19789
+
+RUN: #6 - ITERATION: #10 - 23:52:37
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=14561
+
+RUN: #6 - ITERATION: #1 - 23:52:37
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=23841
+
+RUN: #6 - ITERATION: #2 - 23:52:37
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=29181
+
+RUN: #6 - ITERATION: #3 - 23:52:37
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=20076
+
+RUN: #6 - ITERATION: #4 - 23:55:12
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=28391
+
+RUN: #6 - ITERATION: #5 - 23:55:12
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=14898
+
+RUN: #6 - ITERATION: #6 - 23:55:12
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=25182
+
+RUN: #6 - ITERATION: #7 - 23:55:12
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=26474
+
+RUN: #6 - ITERATION: #8 - 23:55:19
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=7181
+
+RUN: #6 - ITERATION: #9 - 23:55:20
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=25541
+
+RUN: #6 - ITERATION: #10 - 23:55:21
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=22303
+
+RUN: #6 - ITERATION: #1 - 23:55:21
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=24599
+
+RUN: #6 - ITERATION: #2 - 23:55:21
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=23196
+
+RUN: #6 - ITERATION: #3 - 23:55:22
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=31547
+
+RUN: #6 - ITERATION: #4 - 23:55:56
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=5274
+
+RUN: #6 - ITERATION: #5 - 23:55:56
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=12896
+
+RUN: #6 - ITERATION: #6 - 23:55:56
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=2687
+
+RUN: #6 - ITERATION: #7 - 23:56:00
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=15116
+
+RUN: #6 - ITERATION: #8 - 23:57:18
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=26008
+
+RUN: #6 - ITERATION: #9 - 23:58:58
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=3599
+
+RUN: #6 - ITERATION: #10 - 23:58:58
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=16478
+
+RUN: #6 - ITERATION: #1 - 23:58:58
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=7
+
+RUN: #6 - ITERATION: #2 - 23:59:42
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=9485
+
+RUN: #6 - ITERATION: #3 - 00:08:01
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=19610
+
+RUN: #6 - ITERATION: #4 - 00:08:25
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=17925
+
+RUN: #6 - ITERATION: #5 - 00:08:39
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=18753
+
+RUN: #6 - ITERATION: #6 - 00:08:44
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=29021
+
+RUN: #6 - ITERATION: #7 - 00:08:46
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=23543
+
+RUN: #6 - ITERATION: #8 - 00:08:48
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=3417
+
+RUN: #6 - ITERATION: #9 - 00:08:51
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=9183
+
+RUN: #6 - ITERATION: #10 - 00:08:56
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=12040
+
+RUN: #6 - ITERATION: #1 - 00:08:57
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=27359
+
+RUN: #6 - ITERATION: #2 - 00:08:57
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=11454
+
+RUN: #6 - ITERATION: #3 - 00:09:17
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=16833
+
+RUN: #6 - ITERATION: #4 - 00:09:24
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=2235
+
+RUN: #6 - ITERATION: #5 - 00:09:30
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=32647
+
+RUN: #6 - ITERATION: #6 - 00:09:31
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=15506
+
+RUN: #6 - ITERATION: #7 - 00:11:31
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=28201
+
+RUN: #6 - ITERATION: #8 - 00:11:32
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=1775
+
+RUN: #6 - ITERATION: #9 - 00:11:32
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=29384
+
+RUN: #6 - ITERATION: #10 - 00:12:16
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=20693
+
+
+
+run 7
+RUN: #7 - ITERATION: #1 - 00:12:22
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=16456
+
+RUN: #7 - ITERATION: #2 - 00:12:22
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=22260
+
+RUN: #7 - ITERATION: #3 - 00:12:22
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=19353
+
+RUN: #7 - ITERATION: #4 - 00:12:22
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=27151
+
+RUN: #7 - ITERATION: #5 - 00:12:22
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=10245
+
+RUN: #7 - ITERATION: #6 - 00:12:22
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=7072
+
+RUN: #7 - ITERATION: #7 - 00:12:22
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=10560
+
+RUN: #7 - ITERATION: #8 - 00:12:22
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=15099
+
+RUN: #7 - ITERATION: #9 - 00:12:22
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=14190
+
+RUN: #7 - ITERATION: #10 - 00:12:22
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=22308
+
+RUN: #7 - ITERATION: #1 - 00:12:22
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=6490
+
+RUN: #7 - ITERATION: #2 - 00:12:23
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=28324
+
+RUN: #7 - ITERATION: #3 - 00:12:23
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=4684
+
+RUN: #7 - ITERATION: #4 - 00:12:23
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=24328
+
+RUN: #7 - ITERATION: #5 - 00:12:23
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=18165
+
+RUN: #7 - ITERATION: #6 - 00:12:23
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=4807
+
+RUN: #7 - ITERATION: #7 - 00:12:23
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=21528
+
+RUN: #7 - ITERATION: #8 - 00:12:23
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=2581
+
+RUN: #7 - ITERATION: #9 - 00:12:23
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=29461
+
+RUN: #7 - ITERATION: #10 - 00:12:23
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=9579
+
+RUN: #7 - ITERATION: #1 - 00:12:23
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=15939
+
+RUN: #7 - ITERATION: #2 - 00:12:23
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=19582
+
+RUN: #7 - ITERATION: #3 - 00:12:23
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=1169
+
+RUN: #7 - ITERATION: #4 - 00:12:29
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=23097
+
+RUN: #7 - ITERATION: #5 - 00:12:29
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=2378
+
+RUN: #7 - ITERATION: #6 - 00:12:30
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=194
+
+RUN: #7 - ITERATION: #7 - 00:12:30
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=32338
+
+RUN: #7 - ITERATION: #8 - 00:12:30
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=22635
+
+RUN: #7 - ITERATION: #9 - 00:12:30
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=2937
+
+RUN: #7 - ITERATION: #10 - 00:12:30
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=29121
+
+RUN: #7 - ITERATION: #1 - 00:12:30
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=16204
+
+RUN: #7 - ITERATION: #2 - 00:12:30
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=5804
+
+RUN: #7 - ITERATION: #3 - 00:12:30
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=5727
+
+RUN: #7 - ITERATION: #4 - 00:12:30
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=19304
+
+RUN: #7 - ITERATION: #5 - 00:12:30
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=22703
+
+RUN: #7 - ITERATION: #6 - 00:12:34
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=26820
+
+RUN: #7 - ITERATION: #7 - 00:12:38
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=8135
+
+RUN: #7 - ITERATION: #8 - 00:12:38
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=20266
+
+RUN: #7 - ITERATION: #9 - 00:12:38
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=25439
+
+RUN: #7 - ITERATION: #10 - 00:12:38
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=29729
+
+RUN: #7 - ITERATION: #1 - 00:12:38
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=23267
+
+RUN: #7 - ITERATION: #2 - 00:12:39
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=1224
+
+RUN: #7 - ITERATION: #3 - 00:12:39
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=8503
+
+RUN: #7 - ITERATION: #4 - 00:12:39
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=8882
+
+RUN: #7 - ITERATION: #5 - 00:12:40
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=2989
+
+RUN: #7 - ITERATION: #6 - 00:12:41
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=16286
+
+RUN: #7 - ITERATION: #7 - 00:12:42
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=11458
+
+RUN: #7 - ITERATION: #8 - 00:12:42
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=10108
+
+RUN: #7 - ITERATION: #9 - 00:12:42
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=24100
+
+RUN: #7 - ITERATION: #10 - 00:12:42
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=18362
+
+RUN: #7 - ITERATION: #1 - 00:12:43
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=8696
+
+RUN: #7 - ITERATION: #2 - 00:13:15
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=13826
+
+RUN: #7 - ITERATION: #3 - 00:13:15
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=17068
+
+RUN: #7 - ITERATION: #4 - 00:14:36
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=18328
+
+RUN: #7 - ITERATION: #5 - 00:14:36
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=28028
+
+RUN: #7 - ITERATION: #6 - 00:14:36
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=274
+
+RUN: #7 - ITERATION: #7 - 00:14:36
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=1162
+
+RUN: #7 - ITERATION: #8 - 00:21:29
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=9441
+
+RUN: #7 - ITERATION: #9 - 00:21:30
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=16019
+
+RUN: #7 - ITERATION: #10 - 00:21:35
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=20802
+
+RUN: #7 - ITERATION: #1 - 00:21:35
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=20976
+
+RUN: #7 - ITERATION: #2 - 00:21:35
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=31627
+
+RUN: #7 - ITERATION: #3 - 00:21:35
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=28138
+
+RUN: #7 - ITERATION: #4 - 00:21:35
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=18794
+
+RUN: #7 - ITERATION: #5 - 00:21:35
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=27728
+
+RUN: #7 - ITERATION: #6 - 00:21:35
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=2160
+
+RUN: #7 - ITERATION: #7 - 00:21:35
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=11878
+
+RUN: #7 - ITERATION: #8 - 00:21:35
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=23057
+
+RUN: #7 - ITERATION: #9 - 00:21:35
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=18608
+
+RUN: #7 - ITERATION: #10 - 00:21:35
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=14626
+
+RUN: #7 - ITERATION: #1 - 00:21:35
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=2208
+
+RUN: #7 - ITERATION: #2 - 00:21:35
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=26837
+
+RUN: #7 - ITERATION: #3 - 00:21:35
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=1088
+
+RUN: #7 - ITERATION: #4 - 00:21:35
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=18006
+
+RUN: #7 - ITERATION: #5 - 00:21:35
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=29661
+
+RUN: #7 - ITERATION: #6 - 00:21:36
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=28944
+
+RUN: #7 - ITERATION: #7 - 00:21:36
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=28738
+
+RUN: #7 - ITERATION: #8 - 00:21:36
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=56
+
+RUN: #7 - ITERATION: #9 - 00:21:36
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=1357
+
+RUN: #7 - ITERATION: #10 - 00:21:36
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=12290
+
+RUN: #7 - ITERATION: #1 - 00:21:37
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=24862
+
+RUN: #7 - ITERATION: #2 - 00:21:37
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=12547
+
+RUN: #7 - ITERATION: #3 - 00:21:37
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=29889
+
+RUN: #7 - ITERATION: #4 - 00:21:37
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=11667
+
+RUN: #7 - ITERATION: #5 - 00:21:37
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=6884
+
+RUN: #7 - ITERATION: #6 - 00:21:37
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=5463
+
+RUN: #7 - ITERATION: #7 - 00:21:37
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=1372
+
+RUN: #7 - ITERATION: #8 - 00:21:52
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=28968
+
+RUN: #7 - ITERATION: #9 - 00:21:55
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=9665
+
+RUN: #7 - ITERATION: #10 - 00:21:55
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=21053
+
+RUN: #7 - ITERATION: #1 - 00:21:58
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=13279
+
+RUN: #7 - ITERATION: #2 - 00:21:58
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=9295
+
+RUN: #7 - ITERATION: #3 - 00:21:59
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=30950
+
+RUN: #7 - ITERATION: #4 - 00:21:59
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=32198
+
+RUN: #7 - ITERATION: #5 - 00:21:59
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=24834
+
+RUN: #7 - ITERATION: #6 - 00:21:59
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=25648
+
+RUN: #7 - ITERATION: #7 - 00:22:04
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=19330
+
+RUN: #7 - ITERATION: #8 - 00:22:04
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=18357
+
+RUN: #7 - ITERATION: #9 - 00:22:04
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=29006
+
+RUN: #7 - ITERATION: #10 - 00:22:04
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=16125
+
+RUN: #7 - ITERATION: #1 - 00:22:08
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=1712
+
+RUN: #7 - ITERATION: #2 - 00:22:09
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=19266
+
+RUN: #7 - ITERATION: #3 - 00:22:17
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=631
+
+RUN: #7 - ITERATION: #4 - 00:22:17
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=1502
+
+RUN: #7 - ITERATION: #5 - 00:22:17
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=19384
+
+RUN: #7 - ITERATION: #6 - 00:22:17
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=18222
+
+RUN: #7 - ITERATION: #7 - 00:22:18
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=15383
+
+RUN: #7 - ITERATION: #8 - 00:22:33
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=5172
+
+RUN: #7 - ITERATION: #9 - 00:22:44
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=2321
+
+RUN: #7 - ITERATION: #10 - 00:22:46
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=31434
+
+RUN: #7 - ITERATION: #1 - 00:22:47
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=23562
+
+RUN: #7 - ITERATION: #2 - 00:22:56
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=26040
+
+RUN: #7 - ITERATION: #3 - 00:39:18
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=19898
+
+RUN: #7 - ITERATION: #4 - 00:39:18
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=16762
+
+RUN: #7 - ITERATION: #5 - 00:39:27
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=13431
+
+RUN: #7 - ITERATION: #6 - 00:39:28
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=10173
+
+RUN: #7 - ITERATION: #7 - 01:05:55
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=13537
+
+RUN: #7 - ITERATION: #8 - 01:05:57
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=21558
+
+RUN: #7 - ITERATION: #9 - 01:05:57
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=29064
+
+RUN: #7 - ITERATION: #10 - 01:06:05
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=18940
+
+RUN: #7 - ITERATION: #1 - 01:08:53
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=29731
+
+RUN: #7 - ITERATION: #2 - 01:08:54
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=17231
+
+RUN: #7 - ITERATION: #3 - 01:08:54
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=8069
+
+RUN: #7 - ITERATION: #4 - 01:08:54
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=5318
+
+RUN: #7 - ITERATION: #5 - 01:08:54
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=9030
+
+RUN: #7 - ITERATION: #6 - 01:08:54
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=29570
+
+RUN: #7 - ITERATION: #7 - 01:08:54
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=9026
+
+RUN: #7 - ITERATION: #8 - 01:08:54
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=30681
+
+RUN: #7 - ITERATION: #9 - 01:08:54
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=28785
+
+RUN: #7 - ITERATION: #10 - 01:08:54
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=25876
+
+RUN: #7 - ITERATION: #1 - 01:08:54
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=20543
+
+RUN: #7 - ITERATION: #2 - 01:08:54
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=4436
+
+RUN: #7 - ITERATION: #3 - 01:08:54
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=18873
+
+RUN: #7 - ITERATION: #4 - 01:08:54
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=25397
+
+RUN: #7 - ITERATION: #5 - 01:08:54
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=29401
+
+RUN: #7 - ITERATION: #6 - 01:08:55
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=21272
+
+RUN: #7 - ITERATION: #7 - 01:08:55
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=2841
+
+RUN: #7 - ITERATION: #8 - 01:08:55
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=25928
+
+RUN: #7 - ITERATION: #9 - 01:08:55
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=12563
+
+RUN: #7 - ITERATION: #10 - 01:08:55
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=29
+
+RUN: #7 - ITERATION: #1 - 01:08:56
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=10357
+
+RUN: #7 - ITERATION: #2 - 01:08:59
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=19096
+
+RUN: #7 - ITERATION: #3 - 01:08:59
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=4990
+
+RUN: #7 - ITERATION: #4 - 01:09:00
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=3903
+
+RUN: #7 - ITERATION: #5 - 01:09:07
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=8020
+
+RUN: #7 - ITERATION: #6 - 01:09:10
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=31883
+
+RUN: #7 - ITERATION: #7 - 01:09:10
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=13278
+
+RUN: #7 - ITERATION: #8 - 01:09:10
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=26753
+
+RUN: #7 - ITERATION: #9 - 01:09:10
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=3654
+
+RUN: #7 - ITERATION: #10 - 01:09:12
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=15077
+
+RUN: #7 - ITERATION: #1 - 01:09:12
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=18908
+
+RUN: #7 - ITERATION: #2 - 01:09:12
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=26167
+
+RUN: #7 - ITERATION: #3 - 01:09:12
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=20881
+
+RUN: #7 - ITERATION: #4 - 01:09:32
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=24463
+
+RUN: #7 - ITERATION: #5 - 01:09:50
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=23961
+
+RUN: #7 - ITERATION: #6 - 01:09:53
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=1708
+
+RUN: #7 - ITERATION: #7 - 01:11:12
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=14249
+
+RUN: #7 - ITERATION: #8 - 01:11:13
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=29307
+
+RUN: #7 - ITERATION: #9 - 01:11:13
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=3018
+
+RUN: #7 - ITERATION: #10 - 01:11:13
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=16486
+
+RUN: #7 - ITERATION: #1 - 01:11:26
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=8088
+
+RUN: #7 - ITERATION: #2 - 01:11:26
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=31339
+
+RUN: #7 - ITERATION: #3 - 01:11:31
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=18267
+
+RUN: #7 - ITERATION: #4 - 01:11:33
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=849
+
+RUN: #7 - ITERATION: #5 - 01:11:33
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=4615
+
+RUN: #7 - ITERATION: #6 - 01:11:33
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=18942
+
+RUN: #7 - ITERATION: #7 - 01:11:34
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=7253
+
+RUN: #7 - ITERATION: #8 - 01:11:34
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=14988
+
+RUN: #7 - ITERATION: #9 - 01:13:02
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=28463
+
+RUN: #7 - ITERATION: #10 - 01:43:18
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=19731
+
+RUN: #7 - ITERATION: #1 - 01:43:21
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=27171
+
+RUN: #7 - ITERATION: #2 - 01:55:53
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=23327
+
+RUN: #7 - ITERATION: #3 - 01:55:54
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=31864
+
+RUN: #7 - ITERATION: #4 - 02:10:48
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=31606
+
+RUN: #7 - ITERATION: #5 - 02:11:19
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=12662
+
+RUN: #7 - ITERATION: #6 - 02:11:20
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=28099
+
+RUN: #7 - ITERATION: #7 - 02:14:16
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=28139
+
+RUN: #7 - ITERATION: #8 - 02:15:04
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=3454
+
+RUN: #7 - ITERATION: #9 - 02:15:05
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=32625
+
+RUN: #7 - ITERATION: #10 - 02:15:12
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=11904
+
+
+
+run 8
+RUN: #8 - ITERATION: #1 - 03:19:05
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=820
+
+RUN: #8 - ITERATION: #2 - 03:19:05
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=25604
+
+RUN: #8 - ITERATION: #3 - 03:19:05
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=422
+
+RUN: #8 - ITERATION: #4 - 03:19:05
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=16526
+
+RUN: #8 - ITERATION: #5 - 03:19:05
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=16359
+
+RUN: #8 - ITERATION: #6 - 03:19:05
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=912
+
+RUN: #8 - ITERATION: #7 - 03:19:05
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=5156
+
+RUN: #8 - ITERATION: #8 - 03:19:05
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=23026
+
+RUN: #8 - ITERATION: #9 - 03:19:05
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=20551
+
+RUN: #8 - ITERATION: #10 - 03:19:05
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=6561
+
+RUN: #8 - ITERATION: #1 - 03:19:05
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=14299
+
+RUN: #8 - ITERATION: #2 - 03:19:05
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=14445
+
+RUN: #8 - ITERATION: #3 - 03:19:05
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=14858
+
+RUN: #8 - ITERATION: #4 - 03:19:05
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=377
+
+RUN: #8 - ITERATION: #5 - 03:19:05
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=24910
+
+RUN: #8 - ITERATION: #6 - 03:19:05
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=32114
+
+RUN: #8 - ITERATION: #7 - 03:19:05
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=23353
+
+RUN: #8 - ITERATION: #8 - 03:19:05
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=1773
+
+RUN: #8 - ITERATION: #9 - 03:19:05
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=22757
+
+RUN: #8 - ITERATION: #10 - 03:19:05
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=24391
+
+RUN: #8 - ITERATION: #1 - 03:19:05
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=28076
+
+RUN: #8 - ITERATION: #2 - 03:19:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=11352
+
+RUN: #8 - ITERATION: #3 - 03:19:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=3026
+
+RUN: #8 - ITERATION: #4 - 03:19:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=16088
+
+RUN: #8 - ITERATION: #5 - 03:19:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=11782
+
+RUN: #8 - ITERATION: #6 - 03:19:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=29777
+
+RUN: #8 - ITERATION: #7 - 03:19:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=17892
+
+RUN: #8 - ITERATION: #8 - 03:19:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=6966
+
+RUN: #8 - ITERATION: #9 - 03:19:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=12833
+
+RUN: #8 - ITERATION: #10 - 03:19:06
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=17397
+
+RUN: #8 - ITERATION: #1 - 03:19:06
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=13503
+
+RUN: #8 - ITERATION: #2 - 03:19:06
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=4583
+
+RUN: #8 - ITERATION: #3 - 03:19:10
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=3945
+
+RUN: #8 - ITERATION: #4 - 03:19:10
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=32229
+
+RUN: #8 - ITERATION: #5 - 03:19:12
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=26398
+
+RUN: #8 - ITERATION: #6 - 03:19:15
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=14376
+
+RUN: #8 - ITERATION: #7 - 03:19:15
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=556
+
+RUN: #8 - ITERATION: #8 - 03:19:15
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=16522
+
+RUN: #8 - ITERATION: #9 - 03:19:15
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=30824
+
+RUN: #8 - ITERATION: #10 - 03:19:18
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=9914
+
+RUN: #8 - ITERATION: #1 - 03:19:18
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=16958
+
+RUN: #8 - ITERATION: #2 - 03:19:19
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=14096
+
+RUN: #8 - ITERATION: #3 - 03:19:37
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=16839
+
+RUN: #8 - ITERATION: #4 - 03:19:43
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=4611
+
+RUN: #8 - ITERATION: #5 - 03:19:46
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=20556
+
+RUN: #8 - ITERATION: #6 - 03:19:56
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=1082
+
+RUN: #8 - ITERATION: #7 - 03:19:58
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=18482
+
+RUN: #8 - ITERATION: #8 - 03:19:58
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=31041
+
+RUN: #8 - ITERATION: #9 - 03:19:58
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=25229
+
+RUN: #8 - ITERATION: #10 - 03:19:58
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=19501
+
+RUN: #8 - ITERATION: #1 - 03:19:58
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=22943
+
+RUN: #8 - ITERATION: #2 - 03:19:58
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=29660
+
+RUN: #8 - ITERATION: #3 - 03:19:59
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=9748
+
+RUN: #8 - ITERATION: #4 - 03:28:11
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=12387
+
+RUN: #8 - ITERATION: #5 - 03:28:14
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=26680
+
+RUN: #8 - ITERATION: #6 - 03:28:14
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=25223
+
+RUN: #8 - ITERATION: #7 - 03:28:16
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=16384
+
+RUN: #8 - ITERATION: #8 - 03:28:16
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=25998
+
+RUN: #8 - ITERATION: #9 - 03:28:18
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=29175
+
+RUN: #8 - ITERATION: #10 - 03:28:19
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=20859
+
+RUN: #8 - ITERATION: #1 - 03:28:19
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=8349
+
+RUN: #8 - ITERATION: #2 - 03:28:19
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=30474
+
+RUN: #8 - ITERATION: #3 - 03:28:19
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=26219
+
+RUN: #8 - ITERATION: #4 - 03:28:19
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=15600
+
+RUN: #8 - ITERATION: #5 - 03:28:19
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=1549
+
+RUN: #8 - ITERATION: #6 - 03:28:19
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=7121
+
+RUN: #8 - ITERATION: #7 - 03:28:19
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=4996
+
+RUN: #8 - ITERATION: #8 - 03:28:19
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=2132
+
+RUN: #8 - ITERATION: #9 - 03:28:19
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=29810
+
+RUN: #8 - ITERATION: #10 - 03:28:19
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=12935
+
+RUN: #8 - ITERATION: #1 - 03:28:19
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=24116
+
+RUN: #8 - ITERATION: #2 - 03:28:20
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=28289
+
+RUN: #8 - ITERATION: #3 - 03:28:20
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=13588
+
+RUN: #8 - ITERATION: #4 - 03:28:20
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=23340
+
+RUN: #8 - ITERATION: #5 - 03:28:20
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=24923
+
+RUN: #8 - ITERATION: #6 - 03:28:20
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=15593
+
+RUN: #8 - ITERATION: #7 - 03:28:20
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=4227
+
+RUN: #8 - ITERATION: #8 - 03:28:20
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=9750
+
+RUN: #8 - ITERATION: #9 - 03:28:20
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=10666
+
+RUN: #8 - ITERATION: #10 - 03:28:22
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=1373
+
+RUN: #8 - ITERATION: #1 - 03:28:22
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=28222
+
+RUN: #8 - ITERATION: #2 - 03:28:22
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=19735
+
+RUN: #8 - ITERATION: #3 - 03:28:22
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=21649
+
+RUN: #8 - ITERATION: #4 - 03:28:22
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=17281
+
+RUN: #8 - ITERATION: #5 - 03:28:22
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=31192
+
+RUN: #8 - ITERATION: #6 - 03:28:22
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=31954
+
+RUN: #8 - ITERATION: #7 - 03:28:22
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=29867
+
+RUN: #8 - ITERATION: #8 - 03:28:35
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=19383
+
+RUN: #8 - ITERATION: #9 - 03:28:37
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=150
+
+RUN: #8 - ITERATION: #10 - 03:28:38
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=20713
+
+RUN: #8 - ITERATION: #1 - 03:29:03
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=17828
+
+RUN: #8 - ITERATION: #2 - 03:29:17
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=17082
+
+RUN: #8 - ITERATION: #3 - 03:29:18
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=7783
+
+RUN: #8 - ITERATION: #4 - 03:29:22
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=15550
+
+RUN: #8 - ITERATION: #5 - 03:29:23
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=2669
+
+RUN: #8 - ITERATION: #6 - 03:29:23
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=22734
+
+RUN: #8 - ITERATION: #7 - 03:29:23
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=30436
+
+RUN: #8 - ITERATION: #8 - 03:29:43
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=15389
+
+RUN: #8 - ITERATION: #9 - 03:29:43
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=13085
+
+RUN: #8 - ITERATION: #10 - 03:29:43
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=27482
+
+RUN: #8 - ITERATION: #1 - 03:29:45
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=5446
+
+RUN: #8 - ITERATION: #2 - 03:29:46
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=20706
+
+RUN: #8 - ITERATION: #3 - 03:30:11
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=31249
+
+RUN: #8 - ITERATION: #4 - 03:30:11
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=12359
+
+RUN: #8 - ITERATION: #5 - 03:30:11
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=16237
+
+RUN: #8 - ITERATION: #6 - 03:33:55
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=19617
+
+RUN: #8 - ITERATION: #7 - 03:34:03
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=10368
+
+RUN: #8 - ITERATION: #8 - 03:34:03
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=6436
+
+RUN: #8 - ITERATION: #9 - 03:34:12
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=25813
+
+RUN: #8 - ITERATION: #10 - 03:34:12
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=5603
+
+RUN: #8 - ITERATION: #1 - 03:34:12
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=1949
+
+RUN: #8 - ITERATION: #2 - 03:34:12
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=1980
+
+RUN: #8 - ITERATION: #3 - 03:38:59
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=4477
+
+RUN: #8 - ITERATION: #4 - 03:38:59
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=22822
+
+RUN: #8 - ITERATION: #5 - 03:38:59
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=4012
+
+RUN: #8 - ITERATION: #6 - 03:38:59
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=3615
+
+RUN: #8 - ITERATION: #7 - 03:46:39
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=16033
+
+RUN: #8 - ITERATION: #8 - 03:46:50
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=28432
+
+RUN: #8 - ITERATION: #9 - 03:46:54
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=16256
+
+RUN: #8 - ITERATION: #10 - 05:06:51
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=19144
+
+RUN: #8 - ITERATION: #1 - 05:07:00
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=13344
+
+RUN: #8 - ITERATION: #2 - 05:07:00
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=22706
+
+RUN: #8 - ITERATION: #3 - 05:07:00
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=20032
+
+RUN: #8 - ITERATION: #4 - 05:07:00
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=29415
+
+RUN: #8 - ITERATION: #5 - 05:07:00
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=26245
+
+RUN: #8 - ITERATION: #6 - 05:07:00
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=19025
+
+RUN: #8 - ITERATION: #7 - 05:07:00
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=14611
+
+RUN: #8 - ITERATION: #8 - 05:07:00
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=25927
+
+RUN: #8 - ITERATION: #9 - 05:07:00
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=25165
+
+RUN: #8 - ITERATION: #10 - 05:07:00
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=21576
+
+RUN: #8 - ITERATION: #1 - 05:07:01
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=1545
+
+RUN: #8 - ITERATION: #2 - 05:07:01
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=2893
+
+RUN: #8 - ITERATION: #3 - 05:07:01
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=17477
+
+RUN: #8 - ITERATION: #4 - 05:07:01
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=15809
+
+RUN: #8 - ITERATION: #5 - 05:07:01
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=30749
+
+RUN: #8 - ITERATION: #6 - 05:07:01
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=4091
+
+RUN: #8 - ITERATION: #7 - 05:07:02
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=20042
+
+RUN: #8 - ITERATION: #8 - 05:07:02
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=5742
+
+RUN: #8 - ITERATION: #9 - 05:07:02
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=26514
+
+RUN: #8 - ITERATION: #10 - 05:07:05
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=22056
+
+RUN: #8 - ITERATION: #1 - 05:07:06
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=14681
+
+RUN: #8 - ITERATION: #2 - 05:07:07
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=8363
+
+RUN: #8 - ITERATION: #3 - 05:07:07
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=24086
+
+RUN: #8 - ITERATION: #4 - 05:07:07
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=9881
+
+RUN: #8 - ITERATION: #5 - 05:07:08
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=18696
+
+RUN: #8 - ITERATION: #6 - 05:07:08
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=23362
+
+RUN: #8 - ITERATION: #7 - 05:07:08
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=30427
+
+RUN: #8 - ITERATION: #8 - 05:07:08
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=26931
+
+RUN: #8 - ITERATION: #9 - 05:07:08
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=16384
+
+RUN: #8 - ITERATION: #10 - 05:07:27
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=26793
+
+RUN: #8 - ITERATION: #1 - 05:07:33
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=21545
+
+RUN: #8 - ITERATION: #2 - 05:07:33
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=428
+
+RUN: #8 - ITERATION: #3 - 05:07:34
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=2301
+
+RUN: #8 - ITERATION: #4 - 05:07:38
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=16660
+
+RUN: #8 - ITERATION: #5 - 05:07:43
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=18796
+
+RUN: #8 - ITERATION: #6 - 05:07:44
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=10302
+
+RUN: #8 - ITERATION: #7 - 05:07:44
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=17299
+
+RUN: #8 - ITERATION: #8 - 05:07:44
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=1186
+
+RUN: #8 - ITERATION: #9 - 05:07:44
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=22952
+
+RUN: #8 - ITERATION: #10 - 05:07:52
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=30196
+
+RUN: #8 - ITERATION: #1 - 05:07:52
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=3293
+
+RUN: #8 - ITERATION: #2 - 05:09:53
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=12691
+
+RUN: #8 - ITERATION: #3 - 05:20:18
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=29803
+
+RUN: #8 - ITERATION: #4 - 05:23:28
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=19477
+
+RUN: #8 - ITERATION: #5 - 05:23:34
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=15901
+
+RUN: #8 - ITERATION: #6 - 05:23:34
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=9023
+
+RUN: #8 - ITERATION: #7 - 05:23:50
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=20478
+
+RUN: #8 - ITERATION: #8 - 05:23:56
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=2109
+
+RUN: #8 - ITERATION: #9 - 05:24:52
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=11138
+
+RUN: #8 - ITERATION: #10 - 05:36:05
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=16517
+
+RUN: #8 - ITERATION: #1 - 05:36:06
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=10515
+
+RUN: #8 - ITERATION: #2 - 05:36:06
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=28492
+
+RUN: #8 - ITERATION: #3 - 05:36:08
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=7025
+
+RUN: #8 - ITERATION: #4 - 05:48:52
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=23581
+
+RUN: #8 - ITERATION: #5 - 05:48:53
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=4584
+
+RUN: #8 - ITERATION: #6 - 05:48:53
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=20268
+
+RUN: #8 - ITERATION: #7 - 05:49:00
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=3299
+
+RUN: #8 - ITERATION: #8 - 05:49:00
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=18781
+
+RUN: #8 - ITERATION: #9 - 06:17:48
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=19737
+
+RUN: #8 - ITERATION: #10 - 06:18:44
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=19205
+
+
+
+run 9
+RUN: #9 - ITERATION: #1 - 06:18:45
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=21618
+
+RUN: #9 - ITERATION: #2 - 06:18:45
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=14579
+
+RUN: #9 - ITERATION: #3 - 06:18:45
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=30337
+
+RUN: #9 - ITERATION: #4 - 06:18:45
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=14368
+
+RUN: #9 - ITERATION: #5 - 06:18:46
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=27988
+
+RUN: #9 - ITERATION: #6 - 06:18:46
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=23374
+
+RUN: #9 - ITERATION: #7 - 06:18:46
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=3609
+
+RUN: #9 - ITERATION: #8 - 06:18:46
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=17170
+
+RUN: #9 - ITERATION: #9 - 06:18:46
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=30698
+
+RUN: #9 - ITERATION: #10 - 06:18:46
+ppattern-random-benchmark --psize=5 --qsize=100 --seed=11375
+
+RUN: #9 - ITERATION: #1 - 06:18:46
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=25547
+
+RUN: #9 - ITERATION: #2 - 06:18:46
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=19892
+
+RUN: #9 - ITERATION: #3 - 06:18:46
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=32536
+
+RUN: #9 - ITERATION: #4 - 06:18:46
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=8778
+
+RUN: #9 - ITERATION: #5 - 06:18:46
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=26610
+
+RUN: #9 - ITERATION: #6 - 06:18:46
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=21894
+
+RUN: #9 - ITERATION: #7 - 06:18:46
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=1470
+
+RUN: #9 - ITERATION: #8 - 06:18:46
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=3730
+
+RUN: #9 - ITERATION: #9 - 06:18:46
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=14746
+
+RUN: #9 - ITERATION: #10 - 06:18:46
+ppattern-random-benchmark --psize=6 --qsize=100 --seed=23345
+
+RUN: #9 - ITERATION: #1 - 06:18:46
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=4094
+
+RUN: #9 - ITERATION: #2 - 06:18:46
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=2252
+
+RUN: #9 - ITERATION: #3 - 06:18:46
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=12503
+
+RUN: #9 - ITERATION: #4 - 06:18:47
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=8859
+
+RUN: #9 - ITERATION: #5 - 06:18:47
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=2884
+
+RUN: #9 - ITERATION: #6 - 06:18:52
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=22981
+
+RUN: #9 - ITERATION: #7 - 06:18:52
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=9499
+
+RUN: #9 - ITERATION: #8 - 06:18:54
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=18468
+
+RUN: #9 - ITERATION: #9 - 06:18:54
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=18004
+
+RUN: #9 - ITERATION: #10 - 06:18:54
+ppattern-random-benchmark --psize=7 --qsize=100 --seed=23028
+
+RUN: #9 - ITERATION: #1 - 06:18:54
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=17992
+
+RUN: #9 - ITERATION: #2 - 06:18:55
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=14120
+
+RUN: #9 - ITERATION: #3 - 06:18:55
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=14880
+
+RUN: #9 - ITERATION: #4 - 06:18:56
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=7072
+
+RUN: #9 - ITERATION: #5 - 06:19:10
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=23089
+
+RUN: #9 - ITERATION: #6 - 06:19:10
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=28539
+
+RUN: #9 - ITERATION: #7 - 06:19:10
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=9394
+
+RUN: #9 - ITERATION: #8 - 06:19:12
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=16110
+
+RUN: #9 - ITERATION: #9 - 06:19:12
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=2431
+
+RUN: #9 - ITERATION: #10 - 06:19:33
+ppattern-random-benchmark --psize=8 --qsize=100 --seed=10958
+
+RUN: #9 - ITERATION: #1 - 06:19:33
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=18177
+
+RUN: #9 - ITERATION: #2 - 06:19:33
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=11700
+
+RUN: #9 - ITERATION: #3 - 06:19:50
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=8505
+
+RUN: #9 - ITERATION: #4 - 06:19:50
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=16476
+
+RUN: #9 - ITERATION: #5 - 06:19:50
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=1130
+
+RUN: #9 - ITERATION: #6 - 06:19:52
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=22447
+
+RUN: #9 - ITERATION: #7 - 06:19:52
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=17762
+
+RUN: #9 - ITERATION: #8 - 06:19:59
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=11382
+
+RUN: #9 - ITERATION: #9 - 06:20:02
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=13372
+
+RUN: #9 - ITERATION: #10 - 06:20:03
+ppattern-random-benchmark --psize=9 --qsize=100 --seed=20652
+
+RUN: #9 - ITERATION: #1 - 06:20:03
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=23264
+
+RUN: #9 - ITERATION: #2 - 06:20:03
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=26459
+
+RUN: #9 - ITERATION: #3 - 06:20:03
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=7458
+
+RUN: #9 - ITERATION: #4 - 06:21:05
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=21309
+
+RUN: #9 - ITERATION: #5 - 06:21:05
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=22336
+
+RUN: #9 - ITERATION: #6 - 06:21:23
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=21575
+
+RUN: #9 - ITERATION: #7 - 06:21:23
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=4342
+
+RUN: #9 - ITERATION: #8 - 06:21:24
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=9636
+
+RUN: #9 - ITERATION: #9 - 06:21:24
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=27004
+
+RUN: #9 - ITERATION: #10 - 06:21:24
+ppattern-random-benchmark --psize=10 --qsize=100 --seed=26525
+
+RUN: #9 - ITERATION: #1 - 06:21:24
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=6930
+
+RUN: #9 - ITERATION: #2 - 06:21:24
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=31203
+
+RUN: #9 - ITERATION: #3 - 06:21:24
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=31249
+
+RUN: #9 - ITERATION: #4 - 06:21:24
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=21312
+
+RUN: #9 - ITERATION: #5 - 06:21:24
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=21743
+
+RUN: #9 - ITERATION: #6 - 06:21:24
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=2713
+
+RUN: #9 - ITERATION: #7 - 06:21:24
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=17485
+
+RUN: #9 - ITERATION: #8 - 06:21:25
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=21340
+
+RUN: #9 - ITERATION: #9 - 06:21:25
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=28070
+
+RUN: #9 - ITERATION: #10 - 06:21:25
+ppattern-random-benchmark --psize=5 --qsize=150 --seed=28041
+
+RUN: #9 - ITERATION: #1 - 06:21:25
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=6255
+
+RUN: #9 - ITERATION: #2 - 06:21:25
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=31848
+
+RUN: #9 - ITERATION: #3 - 06:21:25
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=19966
+
+RUN: #9 - ITERATION: #4 - 06:21:25
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=15020
+
+RUN: #9 - ITERATION: #5 - 06:21:25
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=17305
+
+RUN: #9 - ITERATION: #6 - 06:21:25
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=9134
+
+RUN: #9 - ITERATION: #7 - 06:21:25
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=8290
+
+RUN: #9 - ITERATION: #8 - 06:21:25
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=16978
+
+RUN: #9 - ITERATION: #9 - 06:21:25
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=29337
+
+RUN: #9 - ITERATION: #10 - 06:21:25
+ppattern-random-benchmark --psize=6 --qsize=150 --seed=23403
+
+RUN: #9 - ITERATION: #1 - 06:21:25
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=3570
+
+RUN: #9 - ITERATION: #2 - 06:21:34
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=22819
+
+RUN: #9 - ITERATION: #3 - 06:21:34
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=19824
+
+RUN: #9 - ITERATION: #4 - 06:21:34
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=8145
+
+RUN: #9 - ITERATION: #5 - 06:21:48
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=5681
+
+RUN: #9 - ITERATION: #6 - 06:21:48
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=6344
+
+RUN: #9 - ITERATION: #7 - 06:21:48
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=8403
+
+RUN: #9 - ITERATION: #8 - 06:21:48
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=19254
+
+RUN: #9 - ITERATION: #9 - 06:21:48
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=30362
+
+RUN: #9 - ITERATION: #10 - 06:21:49
+ppattern-random-benchmark --psize=7 --qsize=150 --seed=20086
+
+RUN: #9 - ITERATION: #1 - 06:21:49
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=27236
+
+RUN: #9 - ITERATION: #2 - 06:21:49
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=9571
+
+RUN: #9 - ITERATION: #3 - 06:21:49
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=19108
+
+RUN: #9 - ITERATION: #4 - 06:21:49
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=30809
+
+RUN: #9 - ITERATION: #5 - 06:21:49
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=18840
+
+RUN: #9 - ITERATION: #6 - 06:21:49
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=19816
+
+RUN: #9 - ITERATION: #7 - 06:21:52
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=3000
+
+RUN: #9 - ITERATION: #8 - 06:21:57
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=2882
+
+RUN: #9 - ITERATION: #9 - 06:22:02
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=29264
+
+RUN: #9 - ITERATION: #10 - 06:23:37
+ppattern-random-benchmark --psize=8 --qsize=150 --seed=15957
+
+RUN: #9 - ITERATION: #1 - 06:23:38
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=2386
+
+RUN: #9 - ITERATION: #2 - 06:23:38
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=14451
+
+RUN: #9 - ITERATION: #3 - 06:23:39
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=19098
+
+RUN: #9 - ITERATION: #4 - 06:23:45
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=25023
+
+RUN: #9 - ITERATION: #5 - 06:23:46
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=30486
+
+RUN: #9 - ITERATION: #6 - 06:23:46
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=27633
+
+RUN: #9 - ITERATION: #7 - 06:24:12
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=16736
+
+RUN: #9 - ITERATION: #8 - 06:24:12
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=14825
+
+RUN: #9 - ITERATION: #9 - 06:24:12
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=12299
+
+RUN: #9 - ITERATION: #10 - 06:24:12
+ppattern-random-benchmark --psize=9 --qsize=150 --seed=29740
+
+RUN: #9 - ITERATION: #1 - 06:24:12
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=20308
+
+RUN: #9 - ITERATION: #2 - 06:24:15
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=14981
+
+RUN: #9 - ITERATION: #3 - 06:24:15
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=15228
+
+RUN: #9 - ITERATION: #4 - 06:28:09
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=4425
+
+RUN: #9 - ITERATION: #5 - 06:28:14
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=30069
+
+RUN: #9 - ITERATION: #6 - 06:28:14
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=30386
+
+RUN: #9 - ITERATION: #7 - 06:28:16
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=19116
+
+RUN: #9 - ITERATION: #8 - 06:28:21
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=15845
+
+RUN: #9 - ITERATION: #9 - 06:28:21
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=11979
+
+RUN: #9 - ITERATION: #10 - 06:28:23
+ppattern-random-benchmark --psize=10 --qsize=150 --seed=19135
+
+RUN: #9 - ITERATION: #1 - 06:28:23
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=27248
+
+RUN: #9 - ITERATION: #2 - 06:28:23
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=32557
+
+RUN: #9 - ITERATION: #3 - 06:28:23
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=6688
+
+RUN: #9 - ITERATION: #4 - 06:28:23
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=20952
+
+RUN: #9 - ITERATION: #5 - 06:28:23
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=29583
+
+RUN: #9 - ITERATION: #6 - 06:28:23
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=28618
+
+RUN: #9 - ITERATION: #7 - 06:28:23
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=25034
+
+RUN: #9 - ITERATION: #8 - 06:28:23
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=28038
+
+RUN: #9 - ITERATION: #9 - 06:28:23
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=14582
+
+RUN: #9 - ITERATION: #10 - 06:28:23
+ppattern-random-benchmark --psize=5 --qsize=200 --seed=17110
+
+RUN: #9 - ITERATION: #1 - 06:28:23
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=5703
+
+RUN: #9 - ITERATION: #2 - 06:28:23
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=25787
+
+RUN: #9 - ITERATION: #3 - 06:28:23
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=26633
+
+RUN: #9 - ITERATION: #4 - 06:28:23
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=28294
+
+RUN: #9 - ITERATION: #5 - 06:28:23
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=17695
+
+RUN: #9 - ITERATION: #6 - 06:28:27
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=12357
+
+RUN: #9 - ITERATION: #7 - 06:28:27
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=14847
+
+RUN: #9 - ITERATION: #8 - 06:28:27
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=13860
+
+RUN: #9 - ITERATION: #9 - 06:28:27
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=15254
+
+RUN: #9 - ITERATION: #10 - 06:28:27
+ppattern-random-benchmark --psize=6 --qsize=200 --seed=9572
+
+RUN: #9 - ITERATION: #1 - 06:28:27
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=28035
+
+RUN: #9 - ITERATION: #2 - 06:28:28
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=29562
+
+RUN: #9 - ITERATION: #3 - 06:28:28
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=31189
+
+RUN: #9 - ITERATION: #4 - 06:28:30
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=22101
+
+RUN: #9 - ITERATION: #5 - 06:28:30
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=8253
+
+RUN: #9 - ITERATION: #6 - 06:28:51
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=9050
+
+RUN: #9 - ITERATION: #7 - 06:28:55
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=18455
+
+RUN: #9 - ITERATION: #8 - 06:28:55
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=14635
+
+RUN: #9 - ITERATION: #9 - 06:28:55
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=1966
+
+RUN: #9 - ITERATION: #10 - 06:28:55
+ppattern-random-benchmark --psize=7 --qsize=200 --seed=1160
+
+RUN: #9 - ITERATION: #1 - 06:30:59
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=22073
+
+RUN: #9 - ITERATION: #2 - 06:30:59
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=5471
+
+RUN: #9 - ITERATION: #3 - 06:31:00
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=21791
+
+RUN: #9 - ITERATION: #4 - 06:31:26
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=10912
+
+RUN: #9 - ITERATION: #5 - 06:31:27
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=18472
+
+RUN: #9 - ITERATION: #6 - 06:32:12
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=27717
+
+RUN: #9 - ITERATION: #7 - 06:32:12
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=24791
+
+RUN: #9 - ITERATION: #8 - 06:38:34
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=29136
+
+RUN: #9 - ITERATION: #9 - 06:39:09
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=23002
+
+RUN: #9 - ITERATION: #10 - 06:39:09
+ppattern-random-benchmark --psize=8 --qsize=200 --seed=9906
+
+RUN: #9 - ITERATION: #1 - 06:39:15
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=18644
+
+RUN: #9 - ITERATION: #2 - 06:39:22
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=12449
+
+RUN: #9 - ITERATION: #3 - 06:40:01
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=25675
+
+RUN: #9 - ITERATION: #4 - 06:40:20
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=11538
+
+RUN: #9 - ITERATION: #5 - 06:40:20
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=16352
+
+RUN: #9 - ITERATION: #6 - 06:40:54
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=13147
+
+RUN: #9 - ITERATION: #7 - 06:41:16
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=24752
+
+RUN: #9 - ITERATION: #8 - 06:41:26
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=5143
+
+RUN: #9 - ITERATION: #9 - 06:43:03
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=6067
+
+RUN: #9 - ITERATION: #10 - 06:43:03
+ppattern-random-benchmark --psize=9 --qsize=200 --seed=4566
+
+RUN: #9 - ITERATION: #1 - 07:13:52
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=12534
+
+RUN: #9 - ITERATION: #2 - 07:14:19
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=16887
+
+RUN: #9 - ITERATION: #3 - 07:14:22
+ppattern-random-benchmark --psize=10 --qsize=200 --seed=5045
