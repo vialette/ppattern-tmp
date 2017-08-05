@@ -12,7 +12,7 @@ PMAXSPLIT=6
 PSPLITSTEP=1
 
 # q permutation
-QIZE=$1
+QSIZE=$1
 QSPLITSTEP=1
 
 #!/bin/sh
