@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # permutation size
-SIZE=${1:-14}
+SIZE=${1:-12}
 
 # output csv file
 CSV=../data/distribution-size-${SIZE}.csv
