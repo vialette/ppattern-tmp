@@ -5,7 +5,7 @@ TRIALS=10
 
 # p permutation
 MINPSIZE=5
-MAXPSIZE=15
+MAXPSIZE=10
 STEPPSIZE=1
 
 # q permutation
