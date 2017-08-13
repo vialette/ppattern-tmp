@@ -35,8 +35,8 @@ options = Options { size   = def &= help "The permutation size"
                   &= program "split-parameter"
 
 -- Estimate distribution
-splitParamter :: RandomGen g => Int -> Int -> g -> [Int]
-splitParamter n t = aux [] 1
+trackParamter :: RandomGen g => Int -> Int -> g -> [Int]
+trackParamter n t = aux [] 1
   where
     aux acc i g
       | i > t     = acc
@@ -48,7 +48,7 @@ splitParamter n t = aux [] 1
 go :: RandomGen g => Int -> Int -> g -> IO ()
 go n t g = Foldable.mapM_ putStr $ fmap (\k -> show n ++ "," ++ show k ++ "\n") ks
   where
-    ks = splitParamter n t g
+    ks = trackParamter n t g
 
 main :: IO ()
 main = do
