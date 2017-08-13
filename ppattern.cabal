@@ -32,7 +32,7 @@ Library
                  , Data.Algorithm.PPattern.Perm.Monotone
                  , Data.Algorithm.PPattern.Perm.Operation
                  , Data.Algorithm.PPattern.Perm.Random
-                 , Data.Algorithm.PPattern.Perm.Split
+                 , Data.Algorithm.PPattern.Perm.Track
                  , Data.Algorithm.PPattern.Perm.Statistics
                  , Data.Algorithm.PPattern.Perm.Sub
                  , Data.Algorithm.PPattern.Search
@@ -56,8 +56,8 @@ Library
                , Data.Algorithm.PPattern.Search.State.Next
                , Data.Algorithm.PPattern.Search.State.IncreasingFactorization
 
-Executable split-distribution
- Main-Is: SplitDistribution.hs
+Executable Track-distribution
+ Main-Is: TrackDistribution.hs
  Hs-Source-Dirs: src
  ghc-options: -Wall -Werror -O2
  Default-Language: Haskell2010
@@ -102,8 +102,8 @@ Executable ppattern-random-benchmark
               , patience >=0.1
               , ppattern >= 0.1
 
-Executable ppattern-split-benchmark
-  Main-Is: PPatternSplitBenchmark.hs
+Executable ppattern-Track-benchmark
+  Main-Is: PPatternTrackBenchmark.hs
   Hs-Source-Dirs: src
   ghc-options: -Wall -Werror -O2
   Default-Language: Haskell2010
@@ -119,8 +119,8 @@ Executable ppattern-split-benchmark
                , patience >=0.1
                , ppattern >= 0.1
 
-Executable ppattern-split-benchmark2
-  Main-Is: PPatternSplitBenchmark2.hs
+Executable ppattern-exact-track-benchmark
+  Main-Is: PPatternExactTrackBenchmark.hs
   Hs-Source-Dirs: src
   ghc-options: -Wall -Werror -O2
   Default-Language: Haskell2010
@@ -136,8 +136,8 @@ Executable ppattern-split-benchmark2
               , patience >=0.1
               , ppattern >= 0.1
 
-Executable split-parameter
-  Main-Is: SplitParameter.hs
+Executable Track-parameter
+  Main-Is: TrackParameter.hs
   Hs-Source-Dirs: src
   ghc-options: -Wall -Werror -O2
   Default-Language: Haskell2010
