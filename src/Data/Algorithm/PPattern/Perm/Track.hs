@@ -19,9 +19,10 @@ module Data.Algorithm.PPattern.Perm.Track
     import qualified Data.Foldable as Foldable
     import qualified System.Random
 
-    import qualified Data.Algorithm.PPattern.Perm         as Perm
-    import qualified Data.Algorithm.PPattern.IntPartition as IntPartition
-    import qualified Data.Algorithm.PPattern.Random       as Random
+    import qualified Data.Algorithm.PPattern.Perm          as Perm
+    import qualified Data.Algorithm.PPattern.Perm.Monotone as Perm.Monotone
+    import qualified Data.Algorithm.PPattern.IntPartition  as IntPartition
+    import qualified Data.Algorithm.PPattern.Random        as Random
 
     {-|
       'rand' takes two integers 'n' and 'k' and a random generator 'g'.
