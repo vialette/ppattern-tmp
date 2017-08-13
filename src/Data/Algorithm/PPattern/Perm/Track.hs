@@ -1,18 +1,15 @@
 {-|
 Module      : Data.Algorithm.PPattern.Perm.Track
-Description : Short description
+Description : Random generation of k-track permutations.
 Copyright   : (c) Laurent Bulteau, Romeo Rizzi, Stéphane Vialette, 2016-2017
 License     : MIT
 Maintainer  : vialette@gmail.com
 Stability   : experimental
-
-Here is a longer description of this module, containing some
-commentary with @some markup@.
 -}
 
 module Data.Algorithm.PPattern.Perm.Track
 (
-  -- *
+  -- * generating
   rand
 , randExact
 )
