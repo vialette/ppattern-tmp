@@ -40,7 +40,7 @@ while true; do
           SEED=$RANDOM
 
           # benchmark
-          echo ppattern-exact-track-benchmark --psize=${PSIZE} --qsize=${QSIZE} --PTRACK=${PTRACK} --QTRACK=${QTRACK} --seed=${SEED}
+          echo ppattern-exact-track-benchmark --psize=${PSIZE} --qsize=${QSIZE} --ptrack=${PTRACK} --qtrack=${QTRACK} --seed=${SEED}
           ../dist/build/ppattern-exact-track-benchmark/ppattern-exact-track-benchmark --psize=${PSIZE} --qsize=${QSIZE} --PTRACK=$PTRACK --QTRACK=${QTRACK} --seed=${SEED} >> ${CSV}
           echo
         done
